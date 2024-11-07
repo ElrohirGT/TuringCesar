@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"strconv"
 )
 
 type HeadMovement int
@@ -57,10 +58,9 @@ func (machine TuringMachine) Run(input string) SimulationResult {
 	for _, char := range input {
 		machine.tape = append(machine.tape, char)
 	}
-	isAccepted := true
 
+	isAccepted := true
 	machine.head.position = 0
-	fmt.Printf("INITIAL TAPE: %v", machine.tape)
 
 	maxIterations := 10000
 	i := 0
@@ -73,14 +73,14 @@ machineLoop:
 			character: machine.tape[machine.head.position],
 		}
 
-		fmt.Printf("Trying to find transition with input: %v", tranInput)
+		fmt.Println("Trying to find transition with state:", tranInput.state, "and char:", strconv.QuoteRune(tranInput.character))
 		output, found := machine.transitions[tranInput]
 
 		if !found {
 			panic("No transition found for this input!")
 		}
 
-		fmt.Printf("OUTPUT: %v", output)
+		fmt.Println("OUTPUT:", output.state, strconv.QuoteRune(output.character), output.headMovement.String())
 
 		machine.head.state = output.state
 		machine.tape[machine.head.position] = output.character
@@ -113,7 +113,12 @@ machineLoop:
 				break machineLoop
 			}
 		}
+		fmt.Println("---")
 	}
+	fmt.Println("===")
+
+	fmt.Println("FINAL MACHINE STATE:")
+	machine.PrintState()
 
 	return SimulationResult{
 		Accepted:   isAccepted,
@@ -125,9 +130,11 @@ func (machine TuringMachine) PrintState() {
 	fmt.Print("TAPE:")
 	for idx, char := range machine.tape {
 		if machine.head.position == idx {
-			fmt.Printf(" [%v: %v]", char, machine.head.state)
+			fmt.Printf(" [%s: %s]", strconv.QuoteRune(char), machine.head.state)
 		} else {
-			fmt.Printf(" %v", char)
+			fmt.Printf(" %s", strconv.QuoteRune(char))
 		}
 	}
+
+	fmt.Println()
 }
