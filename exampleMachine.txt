@@ -1,0 +1,7 @@
+q3
+q4
+q0
+aba
+q0 a -> q1 b R
+q1 b -> q2 c R
+q2 a -> q3 _ L
