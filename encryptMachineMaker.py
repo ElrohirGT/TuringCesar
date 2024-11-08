@@ -1,4 +1,4 @@
-sigma = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "ñ", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+sigma = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "ñ", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", " "]
 finalStates = ['{:0>2}'.format(x) for x in range(len(sigma))]
 print(*['q{}_'.format(x) for x in finalStates])
 print()
