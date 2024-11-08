@@ -3,7 +3,7 @@ finalStates = ['{:0>2}'.format(x) for x in range(len(sigma))]
 print(*['q{}_'.format(x) for x in finalStates])
 print()
 print("q")
-print("01aa")
+print("05flavio")
 
 print("q 0 -> q0 _ R")
 print("q 1 -> q1 _ R")
