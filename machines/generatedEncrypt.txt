@@ -4,6 +4,7 @@ q
 05flavio
 q 0 -> q0 _ R
 q 1 -> q1 _ R
+q 2 -> q2 _ R
 q0 0 -> q00 _ R
 q00 _ -> q00_ _ R
 q00 a -> q00 a R

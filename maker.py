@@ -7,6 +7,7 @@ print("01aa")
 
 print("q 0 -> q0 _ R")
 print("q 1 -> q1 _ R")
+print("q 2 -> q2 _ R")
 
 qStates = [x for x in range(10)]
 for qState in qStates:
