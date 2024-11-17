@@ -39,7 +39,7 @@ func main() {
 		case 1:
 			fmt.Print("Ingresa el mensaje para encriptar: ")
 			message, _ := reader.ReadString('\n')
-			message = strings.TrimSpace(message)
+			message = strings.ToLower(strings.TrimSpace(message))
 
 			filePath := "machines/generatedEncrypt.txt"
 			file, err := os.Open(filePath)
