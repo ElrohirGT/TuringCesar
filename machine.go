@@ -73,11 +73,22 @@ machineLoop:
 			character: machine.tape[machine.head.position],
 		}
 
-		fmt.Println("Trying to find transition with state:", tranInput.state, "and char:", strconv.QuoteRune(tranInput.character))
-		output, found := machine.transitions[tranInput]
+		var output TransitionOutput
+		if tranInput.state == " " {
+			output = TransitionOutput{
+				state:        machine.head.state,
+				character:    ' ',
+				headMovement: Right,
+			}
+		} else {
+			fmt.Println("Trying to find transition with state:", tranInput.state, "and char:", strconv.QuoteRune(tranInput.character))
 
-		if !found {
-			panic("No transition found for this input!")
+			machineOutput, found := machine.transitions[tranInput]
+			if !found {
+				panic("No transition found for this input!")
+			}
+
+			output = machineOutput
 		}
 
 		fmt.Println("OUTPUT:", output.state, strconv.QuoteRune(output.character), output.headMovement.String())

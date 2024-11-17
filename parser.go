@@ -7,9 +7,8 @@ import (
 	"strings"
 )
 
-func ParseMachine() (TuringMachine, string) {
-
-	scanner := bufio.NewScanner(os.Stdin)
+func ParseMachine(file *os.File) TuringMachine {
+	scanner := bufio.NewScanner(file)
 
 	scanner.Scan()
 	acceptedStates := strings.Split(scanner.Text(), " ")
@@ -19,9 +18,6 @@ func ParseMachine() (TuringMachine, string) {
 
 	scanner.Scan()
 	initialState := scanner.Text()
-
-	scanner.Scan()
-	input := scanner.Text()
 
 	transitions := map[TransitionInput]TransitionOutput{}
 	for scanner.Scan() {
@@ -58,5 +54,5 @@ func ParseMachine() (TuringMachine, string) {
 		transitions: transitions,
 		tape:        []rune{},
 		head:        TuringHead{state: initialState, position: 0},
-	}, input
+	}
 }

@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
+	"io"
 	"os"
 	"strings"
 )
@@ -19,7 +19,7 @@ type TuringMachineJson struct {
 }
 
 func main() {
-	reader := bufio.NewReader(os.Stdin) // Para leer entradas completas con espacios.
+	reader := bufio.NewReader(os.Stdin)
 
 	for {
 		fmt.Println("\n--- MENÚ ---")
@@ -41,15 +41,15 @@ func main() {
 			message, _ := reader.ReadString('\n')
 			message = strings.TrimSpace(message)
 
-			fmt.Print("Ingresa la llave (número entre 0 y 26): ")
-			var key int
-			_, err := fmt.Scanln(&key)
+			filePath := "machines/generatedEncrypt.txt"
+			file, err := os.Open(filePath)
 			if err != nil {
-				fmt.Println("Clave inválida. Intenta nuevamente.")
+				fmt.Printf("Error al leer el archivo en la ruta %s: %v", filePath, err)
 				continue
 			}
+			machine := ParseMachine(file)
+			machine.Run(message)
 
-			fmt.Printf("Mensaje encriptado (pendiente de implementar).\n")
 		case 2:
 			jsonPath := strings.TrimSpace("machines/decryptMachine.json")
 
@@ -57,7 +57,7 @@ func main() {
 			encodedMessage, _ := reader.ReadString('\n')
 			encodedMessage = strings.ToUpper(strings.TrimSpace(encodedMessage))
 
-			machine := parseMachine(jsonPath)
+			machine := parseJSONMachine(jsonPath)
 			key, message := ParseEncodedMessage(encodedMessage)
 			decoded := DecryptCesar(message, key, machine.InputAlphabet)
 
@@ -71,7 +71,7 @@ func main() {
 	}
 }
 
-func parseMachine(filePath string) TuringMachineJson {
+func parseJSONMachine(filePath string) TuringMachineJson {
 	file, err := os.Open(filePath)
 	if err != nil {
 		fmt.Printf("Error al leer el archivo JSON en la ruta '%s': %v\n", filePath, err)
@@ -79,7 +79,7 @@ func parseMachine(filePath string) TuringMachineJson {
 	}
 	defer file.Close()
 
-	byteValue, _ := ioutil.ReadAll(file)
+	byteValue, _ := io.ReadAll(file)
 	var machine TuringMachineJson
 	if err := json.Unmarshal(byteValue, &machine); err != nil {
 		panic(fmt.Sprintf("Error al parsear el archivo JSON: %v", err))
