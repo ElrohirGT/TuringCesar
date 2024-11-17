@@ -31,8 +31,7 @@
         "W",
         "X",
         "Y",
-        "Z",
-        " "
+        "Z"
     ],
     "tape_alphabet": [
         "A",
@@ -60,8 +59,7 @@
         "W",
         "X",
         "Y",
-        "Z",
-        " "
+        "Z"
     ],
     "initial_state": "q0",
     "accept_states": [
@@ -251,13 +249,6 @@
             "move": "R"
         },
         {
-            "state": "q0",
-            "input": " ",
-            "next_state": "q1",
-            "write": " ",
-            "move": "R"
-        },
-        {
             "state": "q1",
             "input": "A",
             "next_state": "q3",
@@ -437,13 +428,6 @@
             "input": "Z",
             "next_state": "q3",
             "write": "Z",
-            "move": "R"
-        },
-        {
-            "state": "q1",
-            "input": " ",
-            "next_state": "q2",
-            "write": " ",
             "move": "R"
         },
         {
@@ -629,13 +613,6 @@
             "move": "R"
         },
         {
-            "state": "q2",
-            "input": " ",
-            "next_state": "q3",
-            "write": " ",
-            "move": "R"
-        },
-        {
             "state": "q3",
             "input": "A",
             "next_state": "q3",
@@ -815,13 +792,6 @@
             "input": "Z",
             "next_state": "q3",
             "write": "Z",
-            "move": "L"
-        },
-        {
-            "state": "q3",
-            "input": " ",
-            "next_state": "q3",
-            "write": " ",
             "move": "L"
         }
     ]
