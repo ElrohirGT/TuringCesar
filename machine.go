@@ -74,7 +74,7 @@ machineLoop:
 		}
 
 		var output TransitionOutput
-		if tranInput.state == " " {
+		if tranInput.character == ' ' {
 			output = TransitionOutput{
 				state:        machine.head.state,
 				character:    ' ',
