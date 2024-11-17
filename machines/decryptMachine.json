@@ -1,0 +1,828 @@
+{
+    "states": [
+        "q0",
+        "q1",
+        "q2",
+        "q3"
+    ],
+    "input_alphabet": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z",
+        " "
+    ],
+    "tape_alphabet": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z",
+        " "
+    ],
+    "initial_state": "q0",
+    "accept_states": [
+        "q2"
+    ],
+    "transitions": [
+        {
+            "state": "q0",
+            "input": "A",
+            "next_state": "q1",
+            "write": "A",
+            "move": "R"
+        },
+        {
+            "state": "q0",
+            "input": "B",
+            "next_state": "q1",
+            "write": "B",
+            "move": "R"
+        },
+        {
+            "state": "q0",
+            "input": "C",
+            "next_state": "q1",
+            "write": "C",
+            "move": "R"
+        },
+        {
+            "state": "q0",
+            "input": "D",
+            "next_state": "q1",
+            "write": "D",
+            "move": "R"
+        },
+        {
+            "state": "q0",
+            "input": "E",
+            "next_state": "q1",
+            "write": "E",
+            "move": "R"
+        },
+        {
+            "state": "q0",
+            "input": "F",
+            "next_state": "q1",
+            "write": "F",
+            "move": "R"
+        },
+        {
+            "state": "q0",
+            "input": "G",
+            "next_state": "q1",
+            "write": "G",
+            "move": "R"
+        },
+        {
+            "state": "q0",
+            "input": "H",
+            "next_state": "q1",
+            "write": "H",
+            "move": "R"
+        },
+        {
+            "state": "q0",
+            "input": "I",
+            "next_state": "q1",
+            "write": "I",
+            "move": "R"
+        },
+        {
+            "state": "q0",
+            "input": "J",
+            "next_state": "q1",
+            "write": "J",
+            "move": "R"
+        },
+        {
+            "state": "q0",
+            "input": "K",
+            "next_state": "q1",
+            "write": "K",
+            "move": "R"
+        },
+        {
+            "state": "q0",
+            "input": "L",
+            "next_state": "q1",
+            "write": "L",
+            "move": "R"
+        },
+        {
+            "state": "q0",
+            "input": "M",
+            "next_state": "q1",
+            "write": "M",
+            "move": "R"
+        },
+        {
+            "state": "q0",
+            "input": "N",
+            "next_state": "q1",
+            "write": "N",
+            "move": "R"
+        },
+        {
+            "state": "q0",
+            "input": "O",
+            "next_state": "q1",
+            "write": "O",
+            "move": "R"
+        },
+        {
+            "state": "q0",
+            "input": "P",
+            "next_state": "q1",
+            "write": "P",
+            "move": "R"
+        },
+        {
+            "state": "q0",
+            "input": "Q",
+            "next_state": "q1",
+            "write": "Q",
+            "move": "R"
+        },
+        {
+            "state": "q0",
+            "input": "R",
+            "next_state": "q1",
+            "write": "R",
+            "move": "R"
+        },
+        {
+            "state": "q0",
+            "input": "S",
+            "next_state": "q1",
+            "write": "S",
+            "move": "R"
+        },
+        {
+            "state": "q0",
+            "input": "T",
+            "next_state": "q1",
+            "write": "T",
+            "move": "R"
+        },
+        {
+            "state": "q0",
+            "input": "U",
+            "next_state": "q1",
+            "write": "U",
+            "move": "R"
+        },
+        {
+            "state": "q0",
+            "input": "V",
+            "next_state": "q1",
+            "write": "V",
+            "move": "R"
+        },
+        {
+            "state": "q0",
+            "input": "W",
+            "next_state": "q1",
+            "write": "W",
+            "move": "R"
+        },
+        {
+            "state": "q0",
+            "input": "X",
+            "next_state": "q1",
+            "write": "X",
+            "move": "R"
+        },
+        {
+            "state": "q0",
+            "input": "Y",
+            "next_state": "q1",
+            "write": "Y",
+            "move": "R"
+        },
+        {
+            "state": "q0",
+            "input": "Z",
+            "next_state": "q1",
+            "write": "Z",
+            "move": "R"
+        },
+        {
+            "state": "q0",
+            "input": " ",
+            "next_state": "q1",
+            "write": " ",
+            "move": "R"
+        },
+        {
+            "state": "q1",
+            "input": "A",
+            "next_state": "q3",
+            "write": "A",
+            "move": "R"
+        },
+        {
+            "state": "q1",
+            "input": "B",
+            "next_state": "q3",
+            "write": "B",
+            "move": "R"
+        },
+        {
+            "state": "q1",
+            "input": "C",
+            "next_state": "q3",
+            "write": "C",
+            "move": "R"
+        },
+        {
+            "state": "q1",
+            "input": "D",
+            "next_state": "q3",
+            "write": "D",
+            "move": "R"
+        },
+        {
+            "state": "q1",
+            "input": "E",
+            "next_state": "q3",
+            "write": "E",
+            "move": "R"
+        },
+        {
+            "state": "q1",
+            "input": "F",
+            "next_state": "q3",
+            "write": "F",
+            "move": "R"
+        },
+        {
+            "state": "q1",
+            "input": "G",
+            "next_state": "q3",
+            "write": "G",
+            "move": "R"
+        },
+        {
+            "state": "q1",
+            "input": "H",
+            "next_state": "q3",
+            "write": "H",
+            "move": "R"
+        },
+        {
+            "state": "q1",
+            "input": "I",
+            "next_state": "q3",
+            "write": "I",
+            "move": "R"
+        },
+        {
+            "state": "q1",
+            "input": "J",
+            "next_state": "q3",
+            "write": "J",
+            "move": "R"
+        },
+        {
+            "state": "q1",
+            "input": "K",
+            "next_state": "q3",
+            "write": "K",
+            "move": "R"
+        },
+        {
+            "state": "q1",
+            "input": "L",
+            "next_state": "q3",
+            "write": "L",
+            "move": "R"
+        },
+        {
+            "state": "q1",
+            "input": "M",
+            "next_state": "q3",
+            "write": "M",
+            "move": "R"
+        },
+        {
+            "state": "q1",
+            "input": "N",
+            "next_state": "q3",
+            "write": "N",
+            "move": "R"
+        },
+        {
+            "state": "q1",
+            "input": "O",
+            "next_state": "q3",
+            "write": "O",
+            "move": "R"
+        },
+        {
+            "state": "q1",
+            "input": "P",
+            "next_state": "q3",
+            "write": "P",
+            "move": "R"
+        },
+        {
+            "state": "q1",
+            "input": "Q",
+            "next_state": "q3",
+            "write": "Q",
+            "move": "R"
+        },
+        {
+            "state": "q1",
+            "input": "R",
+            "next_state": "q3",
+            "write": "R",
+            "move": "R"
+        },
+        {
+            "state": "q1",
+            "input": "S",
+            "next_state": "q3",
+            "write": "S",
+            "move": "R"
+        },
+        {
+            "state": "q1",
+            "input": "T",
+            "next_state": "q3",
+            "write": "T",
+            "move": "R"
+        },
+        {
+            "state": "q1",
+            "input": "U",
+            "next_state": "q3",
+            "write": "U",
+            "move": "R"
+        },
+        {
+            "state": "q1",
+            "input": "V",
+            "next_state": "q3",
+            "write": "V",
+            "move": "R"
+        },
+        {
+            "state": "q1",
+            "input": "W",
+            "next_state": "q3",
+            "write": "W",
+            "move": "R"
+        },
+        {
+            "state": "q1",
+            "input": "X",
+            "next_state": "q3",
+            "write": "X",
+            "move": "R"
+        },
+        {
+            "state": "q1",
+            "input": "Y",
+            "next_state": "q3",
+            "write": "Y",
+            "move": "R"
+        },
+        {
+            "state": "q1",
+            "input": "Z",
+            "next_state": "q3",
+            "write": "Z",
+            "move": "R"
+        },
+        {
+            "state": "q1",
+            "input": " ",
+            "next_state": "q2",
+            "write": " ",
+            "move": "R"
+        },
+        {
+            "state": "q2",
+            "input": "A",
+            "next_state": "q3",
+            "write": "A",
+            "move": "R"
+        },
+        {
+            "state": "q2",
+            "input": "B",
+            "next_state": "q3",
+            "write": "B",
+            "move": "R"
+        },
+        {
+            "state": "q2",
+            "input": "C",
+            "next_state": "q3",
+            "write": "C",
+            "move": "R"
+        },
+        {
+            "state": "q2",
+            "input": "D",
+            "next_state": "q3",
+            "write": "D",
+            "move": "R"
+        },
+        {
+            "state": "q2",
+            "input": "E",
+            "next_state": "q3",
+            "write": "E",
+            "move": "R"
+        },
+        {
+            "state": "q2",
+            "input": "F",
+            "next_state": "q3",
+            "write": "F",
+            "move": "R"
+        },
+        {
+            "state": "q2",
+            "input": "G",
+            "next_state": "q3",
+            "write": "G",
+            "move": "R"
+        },
+        {
+            "state": "q2",
+            "input": "H",
+            "next_state": "q3",
+            "write": "H",
+            "move": "R"
+        },
+        {
+            "state": "q2",
+            "input": "I",
+            "next_state": "q3",
+            "write": "I",
+            "move": "R"
+        },
+        {
+            "state": "q2",
+            "input": "J",
+            "next_state": "q3",
+            "write": "J",
+            "move": "R"
+        },
+        {
+            "state": "q2",
+            "input": "K",
+            "next_state": "q3",
+            "write": "K",
+            "move": "R"
+        },
+        {
+            "state": "q2",
+            "input": "L",
+            "next_state": "q3",
+            "write": "L",
+            "move": "R"
+        },
+        {
+            "state": "q2",
+            "input": "M",
+            "next_state": "q3",
+            "write": "M",
+            "move": "R"
+        },
+        {
+            "state": "q2",
+            "input": "N",
+            "next_state": "q3",
+            "write": "N",
+            "move": "R"
+        },
+        {
+            "state": "q2",
+            "input": "O",
+            "next_state": "q3",
+            "write": "O",
+            "move": "R"
+        },
+        {
+            "state": "q2",
+            "input": "P",
+            "next_state": "q3",
+            "write": "P",
+            "move": "R"
+        },
+        {
+            "state": "q2",
+            "input": "Q",
+            "next_state": "q3",
+            "write": "Q",
+            "move": "R"
+        },
+        {
+            "state": "q2",
+            "input": "R",
+            "next_state": "q3",
+            "write": "R",
+            "move": "R"
+        },
+        {
+            "state": "q2",
+            "input": "S",
+            "next_state": "q3",
+            "write": "S",
+            "move": "R"
+        },
+        {
+            "state": "q2",
+            "input": "T",
+            "next_state": "q3",
+            "write": "T",
+            "move": "R"
+        },
+        {
+            "state": "q2",
+            "input": "U",
+            "next_state": "q3",
+            "write": "U",
+            "move": "R"
+        },
+        {
+            "state": "q2",
+            "input": "V",
+            "next_state": "q3",
+            "write": "V",
+            "move": "R"
+        },
+        {
+            "state": "q2",
+            "input": "W",
+            "next_state": "q3",
+            "write": "W",
+            "move": "R"
+        },
+        {
+            "state": "q2",
+            "input": "X",
+            "next_state": "q3",
+            "write": "X",
+            "move": "R"
+        },
+        {
+            "state": "q2",
+            "input": "Y",
+            "next_state": "q3",
+            "write": "Y",
+            "move": "R"
+        },
+        {
+            "state": "q2",
+            "input": "Z",
+            "next_state": "q3",
+            "write": "Z",
+            "move": "R"
+        },
+        {
+            "state": "q2",
+            "input": " ",
+            "next_state": "q3",
+            "write": " ",
+            "move": "R"
+        },
+        {
+            "state": "q3",
+            "input": "A",
+            "next_state": "q3",
+            "write": "A",
+            "move": "L"
+        },
+        {
+            "state": "q3",
+            "input": "B",
+            "next_state": "q3",
+            "write": "B",
+            "move": "L"
+        },
+        {
+            "state": "q3",
+            "input": "C",
+            "next_state": "q3",
+            "write": "C",
+            "move": "L"
+        },
+        {
+            "state": "q3",
+            "input": "D",
+            "next_state": "q3",
+            "write": "D",
+            "move": "L"
+        },
+        {
+            "state": "q3",
+            "input": "E",
+            "next_state": "q3",
+            "write": "E",
+            "move": "L"
+        },
+        {
+            "state": "q3",
+            "input": "F",
+            "next_state": "q3",
+            "write": "F",
+            "move": "L"
+        },
+        {
+            "state": "q3",
+            "input": "G",
+            "next_state": "q3",
+            "write": "G",
+            "move": "L"
+        },
+        {
+            "state": "q3",
+            "input": "H",
+            "next_state": "q3",
+            "write": "H",
+            "move": "L"
+        },
+        {
+            "state": "q3",
+            "input": "I",
+            "next_state": "q3",
+            "write": "I",
+            "move": "L"
+        },
+        {
+            "state": "q3",
+            "input": "J",
+            "next_state": "q3",
+            "write": "J",
+            "move": "L"
+        },
+        {
+            "state": "q3",
+            "input": "K",
+            "next_state": "q3",
+            "write": "K",
+            "move": "L"
+        },
+        {
+            "state": "q3",
+            "input": "L",
+            "next_state": "q3",
+            "write": "L",
+            "move": "L"
+        },
+        {
+            "state": "q3",
+            "input": "M",
+            "next_state": "q3",
+            "write": "M",
+            "move": "L"
+        },
+        {
+            "state": "q3",
+            "input": "N",
+            "next_state": "q3",
+            "write": "N",
+            "move": "L"
+        },
+        {
+            "state": "q3",
+            "input": "O",
+            "next_state": "q3",
+            "write": "O",
+            "move": "L"
+        },
+        {
+            "state": "q3",
+            "input": "P",
+            "next_state": "q3",
+            "write": "P",
+            "move": "L"
+        },
+        {
+            "state": "q3",
+            "input": "Q",
+            "next_state": "q3",
+            "write": "Q",
+            "move": "L"
+        },
+        {
+            "state": "q3",
+            "input": "R",
+            "next_state": "q3",
+            "write": "R",
+            "move": "L"
+        },
+        {
+            "state": "q3",
+            "input": "S",
+            "next_state": "q3",
+            "write": "S",
+            "move": "L"
+        },
+        {
+            "state": "q3",
+            "input": "T",
+            "next_state": "q3",
+            "write": "T",
+            "move": "L"
+        },
+        {
+            "state": "q3",
+            "input": "U",
+            "next_state": "q3",
+            "write": "U",
+            "move": "L"
+        },
+        {
+            "state": "q3",
+            "input": "V",
+            "next_state": "q3",
+            "write": "V",
+            "move": "L"
+        },
+        {
+            "state": "q3",
+            "input": "W",
+            "next_state": "q3",
+            "write": "W",
+            "move": "L"
+        },
+        {
+            "state": "q3",
+            "input": "X",
+            "next_state": "q3",
+            "write": "X",
+            "move": "L"
+        },
+        {
+            "state": "q3",
+            "input": "Y",
+            "next_state": "q3",
+            "write": "Y",
+            "move": "L"
+        },
+        {
+            "state": "q3",
+            "input": "Z",
+            "next_state": "q3",
+            "write": "Z",
+            "move": "L"
+        },
+        {
+            "state": "q3",
+            "input": " ",
+            "next_state": "q3",
+            "write": " ",
+            "move": "L"
+        }
+    ]
+}
