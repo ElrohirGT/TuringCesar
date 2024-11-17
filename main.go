@@ -55,7 +55,7 @@ func main() {
 
 			fmt.Print("Ingresa la cadena para descifrar: ")
 			encodedMessage, _ := reader.ReadString('\n')
-			encodedMessage = strings.TrimSpace(encodedMessage)
+			encodedMessage = strings.ToUpper(strings.TrimSpace(encodedMessage))
 
 			machine := parseMachine(jsonPath)
 			key, message := ParseEncodedMessage(encodedMessage)
