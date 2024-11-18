@@ -49,6 +49,7 @@ type TuringMachine struct {
 }
 
 type SimulationResult struct {
+	FinalTape  []rune
 	Accepted   bool
 	Iterations int
 }
@@ -132,6 +133,7 @@ machineLoop:
 	machine.PrintState()
 
 	return SimulationResult{
+		FinalTape:  machine.tape,
 		Accepted:   isAccepted,
 		Iterations: i,
 	}

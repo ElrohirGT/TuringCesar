@@ -48,7 +48,8 @@ func main() {
 				continue
 			}
 			machine := ParseMachine(file)
-			machine.Run(message)
+			result := machine.Run(message)
+			fmt.Printf("El mensaje cifrado es: %s", strings.ReplaceAll(string(result.FinalTape), "_", ""))
 
 		case 2:
 			jsonPath := "machines/decryptMachine.json"
