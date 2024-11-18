@@ -1,9 +1,7 @@
 {
     "states": [
         "q0",
-        "q1",
-        "q2",
-        "q3"
+        "halt"
     ],
     "input_alphabet": [
         "A",
@@ -31,7 +29,8 @@
         "W",
         "X",
         "Y",
-        "Z"
+        "Z",
+        " "
     ],
     "tape_alphabet": [
         "A",
@@ -59,740 +58,5629 @@
         "W",
         "X",
         "Y",
-        "Z"
+        "Z",
+        " "
     ],
     "initial_state": "q0",
     "accept_states": [
-        "q2"
+        "halt"
     ],
     "transitions": [
         {
             "state": "q0",
             "input": "A",
-            "next_state": "q1",
+            "next_state": "q0",
             "write": "A",
-            "move": "R"
+            "move": "R",
+            "shift": 0
         },
         {
             "state": "q0",
             "input": "B",
-            "next_state": "q1",
+            "next_state": "q0",
             "write": "B",
-            "move": "R"
+            "move": "R",
+            "shift": 0
         },
         {
             "state": "q0",
             "input": "C",
-            "next_state": "q1",
+            "next_state": "q0",
             "write": "C",
-            "move": "R"
+            "move": "R",
+            "shift": 0
         },
         {
             "state": "q0",
             "input": "D",
-            "next_state": "q1",
+            "next_state": "q0",
             "write": "D",
-            "move": "R"
+            "move": "R",
+            "shift": 0
         },
         {
             "state": "q0",
             "input": "E",
-            "next_state": "q1",
+            "next_state": "q0",
             "write": "E",
-            "move": "R"
+            "move": "R",
+            "shift": 0
         },
         {
             "state": "q0",
             "input": "F",
-            "next_state": "q1",
+            "next_state": "q0",
             "write": "F",
-            "move": "R"
+            "move": "R",
+            "shift": 0
         },
         {
             "state": "q0",
             "input": "G",
-            "next_state": "q1",
+            "next_state": "q0",
             "write": "G",
-            "move": "R"
+            "move": "R",
+            "shift": 0
         },
         {
             "state": "q0",
             "input": "H",
-            "next_state": "q1",
+            "next_state": "q0",
             "write": "H",
-            "move": "R"
+            "move": "R",
+            "shift": 0
         },
         {
             "state": "q0",
             "input": "I",
-            "next_state": "q1",
+            "next_state": "q0",
             "write": "I",
-            "move": "R"
+            "move": "R",
+            "shift": 0
         },
         {
             "state": "q0",
             "input": "J",
-            "next_state": "q1",
+            "next_state": "q0",
             "write": "J",
-            "move": "R"
+            "move": "R",
+            "shift": 0
         },
         {
             "state": "q0",
             "input": "K",
-            "next_state": "q1",
+            "next_state": "q0",
             "write": "K",
-            "move": "R"
+            "move": "R",
+            "shift": 0
         },
         {
             "state": "q0",
             "input": "L",
-            "next_state": "q1",
+            "next_state": "q0",
             "write": "L",
-            "move": "R"
+            "move": "R",
+            "shift": 0
         },
         {
             "state": "q0",
             "input": "M",
-            "next_state": "q1",
+            "next_state": "q0",
             "write": "M",
-            "move": "R"
+            "move": "R",
+            "shift": 0
         },
         {
             "state": "q0",
             "input": "N",
-            "next_state": "q1",
+            "next_state": "q0",
             "write": "N",
-            "move": "R"
+            "move": "R",
+            "shift": 0
         },
         {
             "state": "q0",
             "input": "O",
-            "next_state": "q1",
+            "next_state": "q0",
             "write": "O",
-            "move": "R"
+            "move": "R",
+            "shift": 0
         },
         {
             "state": "q0",
             "input": "P",
-            "next_state": "q1",
+            "next_state": "q0",
             "write": "P",
-            "move": "R"
+            "move": "R",
+            "shift": 0
         },
         {
             "state": "q0",
             "input": "Q",
-            "next_state": "q1",
+            "next_state": "q0",
             "write": "Q",
-            "move": "R"
+            "move": "R",
+            "shift": 0
         },
         {
             "state": "q0",
             "input": "R",
-            "next_state": "q1",
+            "next_state": "q0",
             "write": "R",
-            "move": "R"
+            "move": "R",
+            "shift": 0
         },
         {
             "state": "q0",
             "input": "S",
-            "next_state": "q1",
+            "next_state": "q0",
             "write": "S",
-            "move": "R"
+            "move": "R",
+            "shift": 0
         },
         {
             "state": "q0",
             "input": "T",
-            "next_state": "q1",
+            "next_state": "q0",
             "write": "T",
-            "move": "R"
+            "move": "R",
+            "shift": 0
         },
         {
             "state": "q0",
             "input": "U",
-            "next_state": "q1",
+            "next_state": "q0",
             "write": "U",
-            "move": "R"
+            "move": "R",
+            "shift": 0
         },
         {
             "state": "q0",
             "input": "V",
-            "next_state": "q1",
+            "next_state": "q0",
             "write": "V",
-            "move": "R"
+            "move": "R",
+            "shift": 0
         },
         {
             "state": "q0",
             "input": "W",
-            "next_state": "q1",
+            "next_state": "q0",
             "write": "W",
-            "move": "R"
+            "move": "R",
+            "shift": 0
         },
         {
             "state": "q0",
             "input": "X",
-            "next_state": "q1",
+            "next_state": "q0",
             "write": "X",
-            "move": "R"
+            "move": "R",
+            "shift": 0
         },
         {
             "state": "q0",
             "input": "Y",
-            "next_state": "q1",
+            "next_state": "q0",
             "write": "Y",
-            "move": "R"
+            "move": "R",
+            "shift": 0
         },
         {
             "state": "q0",
             "input": "Z",
-            "next_state": "q1",
+            "next_state": "q0",
             "write": "Z",
-            "move": "R"
+            "move": "R",
+            "shift": 0
         },
         {
-            "state": "q1",
+            "state": "q0",
+            "input": " ",
+            "next_state": "q0",
+            "write": " ",
+            "move": "R",
+            "shift": 0
+        },
+        {
+            "state": "q0",
             "input": "A",
-            "next_state": "q3",
-            "write": "A",
-            "move": "R"
-        },
-        {
-            "state": "q1",
-            "input": "B",
-            "next_state": "q3",
-            "write": "B",
-            "move": "R"
-        },
-        {
-            "state": "q1",
-            "input": "C",
-            "next_state": "q3",
-            "write": "C",
-            "move": "R"
-        },
-        {
-            "state": "q1",
-            "input": "D",
-            "next_state": "q3",
-            "write": "D",
-            "move": "R"
-        },
-        {
-            "state": "q1",
-            "input": "E",
-            "next_state": "q3",
-            "write": "E",
-            "move": "R"
-        },
-        {
-            "state": "q1",
-            "input": "F",
-            "next_state": "q3",
-            "write": "F",
-            "move": "R"
-        },
-        {
-            "state": "q1",
-            "input": "G",
-            "next_state": "q3",
-            "write": "G",
-            "move": "R"
-        },
-        {
-            "state": "q1",
-            "input": "H",
-            "next_state": "q3",
-            "write": "H",
-            "move": "R"
-        },
-        {
-            "state": "q1",
-            "input": "I",
-            "next_state": "q3",
-            "write": "I",
-            "move": "R"
-        },
-        {
-            "state": "q1",
-            "input": "J",
-            "next_state": "q3",
-            "write": "J",
-            "move": "R"
-        },
-        {
-            "state": "q1",
-            "input": "K",
-            "next_state": "q3",
-            "write": "K",
-            "move": "R"
-        },
-        {
-            "state": "q1",
-            "input": "L",
-            "next_state": "q3",
-            "write": "L",
-            "move": "R"
-        },
-        {
-            "state": "q1",
-            "input": "M",
-            "next_state": "q3",
-            "write": "M",
-            "move": "R"
-        },
-        {
-            "state": "q1",
-            "input": "N",
-            "next_state": "q3",
-            "write": "N",
-            "move": "R"
-        },
-        {
-            "state": "q1",
-            "input": "O",
-            "next_state": "q3",
-            "write": "O",
-            "move": "R"
-        },
-        {
-            "state": "q1",
-            "input": "P",
-            "next_state": "q3",
-            "write": "P",
-            "move": "R"
-        },
-        {
-            "state": "q1",
-            "input": "Q",
-            "next_state": "q3",
-            "write": "Q",
-            "move": "R"
-        },
-        {
-            "state": "q1",
-            "input": "R",
-            "next_state": "q3",
-            "write": "R",
-            "move": "R"
-        },
-        {
-            "state": "q1",
-            "input": "S",
-            "next_state": "q3",
-            "write": "S",
-            "move": "R"
-        },
-        {
-            "state": "q1",
-            "input": "T",
-            "next_state": "q3",
-            "write": "T",
-            "move": "R"
-        },
-        {
-            "state": "q1",
-            "input": "U",
-            "next_state": "q3",
-            "write": "U",
-            "move": "R"
-        },
-        {
-            "state": "q1",
-            "input": "V",
-            "next_state": "q3",
-            "write": "V",
-            "move": "R"
-        },
-        {
-            "state": "q1",
-            "input": "W",
-            "next_state": "q3",
-            "write": "W",
-            "move": "R"
-        },
-        {
-            "state": "q1",
-            "input": "X",
-            "next_state": "q3",
-            "write": "X",
-            "move": "R"
-        },
-        {
-            "state": "q1",
-            "input": "Y",
-            "next_state": "q3",
-            "write": "Y",
-            "move": "R"
-        },
-        {
-            "state": "q1",
-            "input": "Z",
-            "next_state": "q3",
+            "next_state": "q0",
             "write": "Z",
-            "move": "R"
+            "move": "R",
+            "shift": 1
         },
         {
-            "state": "q2",
+            "state": "q0",
+            "input": "B",
+            "next_state": "q0",
+            "write": "A",
+            "move": "R",
+            "shift": 1
+        },
+        {
+            "state": "q0",
+            "input": "C",
+            "next_state": "q0",
+            "write": "B",
+            "move": "R",
+            "shift": 1
+        },
+        {
+            "state": "q0",
+            "input": "D",
+            "next_state": "q0",
+            "write": "C",
+            "move": "R",
+            "shift": 1
+        },
+        {
+            "state": "q0",
+            "input": "E",
+            "next_state": "q0",
+            "write": "D",
+            "move": "R",
+            "shift": 1
+        },
+        {
+            "state": "q0",
+            "input": "F",
+            "next_state": "q0",
+            "write": "E",
+            "move": "R",
+            "shift": 1
+        },
+        {
+            "state": "q0",
+            "input": "G",
+            "next_state": "q0",
+            "write": "F",
+            "move": "R",
+            "shift": 1
+        },
+        {
+            "state": "q0",
+            "input": "H",
+            "next_state": "q0",
+            "write": "G",
+            "move": "R",
+            "shift": 1
+        },
+        {
+            "state": "q0",
+            "input": "I",
+            "next_state": "q0",
+            "write": "H",
+            "move": "R",
+            "shift": 1
+        },
+        {
+            "state": "q0",
+            "input": "J",
+            "next_state": "q0",
+            "write": "I",
+            "move": "R",
+            "shift": 1
+        },
+        {
+            "state": "q0",
+            "input": "K",
+            "next_state": "q0",
+            "write": "J",
+            "move": "R",
+            "shift": 1
+        },
+        {
+            "state": "q0",
+            "input": "L",
+            "next_state": "q0",
+            "write": "K",
+            "move": "R",
+            "shift": 1
+        },
+        {
+            "state": "q0",
+            "input": "M",
+            "next_state": "q0",
+            "write": "L",
+            "move": "R",
+            "shift": 1
+        },
+        {
+            "state": "q0",
+            "input": "N",
+            "next_state": "q0",
+            "write": "M",
+            "move": "R",
+            "shift": 1
+        },
+        {
+            "state": "q0",
+            "input": "O",
+            "next_state": "q0",
+            "write": "N",
+            "move": "R",
+            "shift": 1
+        },
+        {
+            "state": "q0",
+            "input": "P",
+            "next_state": "q0",
+            "write": "O",
+            "move": "R",
+            "shift": 1
+        },
+        {
+            "state": "q0",
+            "input": "Q",
+            "next_state": "q0",
+            "write": "P",
+            "move": "R",
+            "shift": 1
+        },
+        {
+            "state": "q0",
+            "input": "R",
+            "next_state": "q0",
+            "write": "Q",
+            "move": "R",
+            "shift": 1
+        },
+        {
+            "state": "q0",
+            "input": "S",
+            "next_state": "q0",
+            "write": "R",
+            "move": "R",
+            "shift": 1
+        },
+        {
+            "state": "q0",
+            "input": "T",
+            "next_state": "q0",
+            "write": "S",
+            "move": "R",
+            "shift": 1
+        },
+        {
+            "state": "q0",
+            "input": "U",
+            "next_state": "q0",
+            "write": "T",
+            "move": "R",
+            "shift": 1
+        },
+        {
+            "state": "q0",
+            "input": "V",
+            "next_state": "q0",
+            "write": "U",
+            "move": "R",
+            "shift": 1
+        },
+        {
+            "state": "q0",
+            "input": "W",
+            "next_state": "q0",
+            "write": "V",
+            "move": "R",
+            "shift": 1
+        },
+        {
+            "state": "q0",
+            "input": "X",
+            "next_state": "q0",
+            "write": "W",
+            "move": "R",
+            "shift": 1
+        },
+        {
+            "state": "q0",
+            "input": "Y",
+            "next_state": "q0",
+            "write": "X",
+            "move": "R",
+            "shift": 1
+        },
+        {
+            "state": "q0",
+            "input": "Z",
+            "next_state": "q0",
+            "write": "Y",
+            "move": "R",
+            "shift": 1
+        },
+        {
+            "state": "q0",
+            "input": " ",
+            "next_state": "q0",
+            "write": " ",
+            "move": "R",
+            "shift": 1
+        },
+        {
+            "state": "q0",
             "input": "A",
-            "next_state": "q3",
-            "write": "A",
-            "move": "R"
-        },
-        {
-            "state": "q2",
-            "input": "B",
-            "next_state": "q3",
-            "write": "B",
-            "move": "R"
-        },
-        {
-            "state": "q2",
-            "input": "C",
-            "next_state": "q3",
-            "write": "C",
-            "move": "R"
-        },
-        {
-            "state": "q2",
-            "input": "D",
-            "next_state": "q3",
-            "write": "D",
-            "move": "R"
-        },
-        {
-            "state": "q2",
-            "input": "E",
-            "next_state": "q3",
-            "write": "E",
-            "move": "R"
-        },
-        {
-            "state": "q2",
-            "input": "F",
-            "next_state": "q3",
-            "write": "F",
-            "move": "R"
-        },
-        {
-            "state": "q2",
-            "input": "G",
-            "next_state": "q3",
-            "write": "G",
-            "move": "R"
-        },
-        {
-            "state": "q2",
-            "input": "H",
-            "next_state": "q3",
-            "write": "H",
-            "move": "R"
-        },
-        {
-            "state": "q2",
-            "input": "I",
-            "next_state": "q3",
-            "write": "I",
-            "move": "R"
-        },
-        {
-            "state": "q2",
-            "input": "J",
-            "next_state": "q3",
-            "write": "J",
-            "move": "R"
-        },
-        {
-            "state": "q2",
-            "input": "K",
-            "next_state": "q3",
-            "write": "K",
-            "move": "R"
-        },
-        {
-            "state": "q2",
-            "input": "L",
-            "next_state": "q3",
-            "write": "L",
-            "move": "R"
-        },
-        {
-            "state": "q2",
-            "input": "M",
-            "next_state": "q3",
-            "write": "M",
-            "move": "R"
-        },
-        {
-            "state": "q2",
-            "input": "N",
-            "next_state": "q3",
-            "write": "N",
-            "move": "R"
-        },
-        {
-            "state": "q2",
-            "input": "O",
-            "next_state": "q3",
-            "write": "O",
-            "move": "R"
-        },
-        {
-            "state": "q2",
-            "input": "P",
-            "next_state": "q3",
-            "write": "P",
-            "move": "R"
-        },
-        {
-            "state": "q2",
-            "input": "Q",
-            "next_state": "q3",
-            "write": "Q",
-            "move": "R"
-        },
-        {
-            "state": "q2",
-            "input": "R",
-            "next_state": "q3",
-            "write": "R",
-            "move": "R"
-        },
-        {
-            "state": "q2",
-            "input": "S",
-            "next_state": "q3",
-            "write": "S",
-            "move": "R"
-        },
-        {
-            "state": "q2",
-            "input": "T",
-            "next_state": "q3",
-            "write": "T",
-            "move": "R"
-        },
-        {
-            "state": "q2",
-            "input": "U",
-            "next_state": "q3",
-            "write": "U",
-            "move": "R"
-        },
-        {
-            "state": "q2",
-            "input": "V",
-            "next_state": "q3",
-            "write": "V",
-            "move": "R"
-        },
-        {
-            "state": "q2",
-            "input": "W",
-            "next_state": "q3",
-            "write": "W",
-            "move": "R"
-        },
-        {
-            "state": "q2",
-            "input": "X",
-            "next_state": "q3",
-            "write": "X",
-            "move": "R"
-        },
-        {
-            "state": "q2",
-            "input": "Y",
-            "next_state": "q3",
+            "next_state": "q0",
             "write": "Y",
-            "move": "R"
+            "move": "R",
+            "shift": 2
         },
         {
-            "state": "q2",
-            "input": "Z",
-            "next_state": "q3",
+            "state": "q0",
+            "input": "B",
+            "next_state": "q0",
             "write": "Z",
-            "move": "R"
+            "move": "R",
+            "shift": 2
         },
         {
-            "state": "q3",
+            "state": "q0",
+            "input": "C",
+            "next_state": "q0",
+            "write": "A",
+            "move": "R",
+            "shift": 2
+        },
+        {
+            "state": "q0",
+            "input": "D",
+            "next_state": "q0",
+            "write": "B",
+            "move": "R",
+            "shift": 2
+        },
+        {
+            "state": "q0",
+            "input": "E",
+            "next_state": "q0",
+            "write": "C",
+            "move": "R",
+            "shift": 2
+        },
+        {
+            "state": "q0",
+            "input": "F",
+            "next_state": "q0",
+            "write": "D",
+            "move": "R",
+            "shift": 2
+        },
+        {
+            "state": "q0",
+            "input": "G",
+            "next_state": "q0",
+            "write": "E",
+            "move": "R",
+            "shift": 2
+        },
+        {
+            "state": "q0",
+            "input": "H",
+            "next_state": "q0",
+            "write": "F",
+            "move": "R",
+            "shift": 2
+        },
+        {
+            "state": "q0",
+            "input": "I",
+            "next_state": "q0",
+            "write": "G",
+            "move": "R",
+            "shift": 2
+        },
+        {
+            "state": "q0",
+            "input": "J",
+            "next_state": "q0",
+            "write": "H",
+            "move": "R",
+            "shift": 2
+        },
+        {
+            "state": "q0",
+            "input": "K",
+            "next_state": "q0",
+            "write": "I",
+            "move": "R",
+            "shift": 2
+        },
+        {
+            "state": "q0",
+            "input": "L",
+            "next_state": "q0",
+            "write": "J",
+            "move": "R",
+            "shift": 2
+        },
+        {
+            "state": "q0",
+            "input": "M",
+            "next_state": "q0",
+            "write": "K",
+            "move": "R",
+            "shift": 2
+        },
+        {
+            "state": "q0",
+            "input": "N",
+            "next_state": "q0",
+            "write": "L",
+            "move": "R",
+            "shift": 2
+        },
+        {
+            "state": "q0",
+            "input": "O",
+            "next_state": "q0",
+            "write": "M",
+            "move": "R",
+            "shift": 2
+        },
+        {
+            "state": "q0",
+            "input": "P",
+            "next_state": "q0",
+            "write": "N",
+            "move": "R",
+            "shift": 2
+        },
+        {
+            "state": "q0",
+            "input": "Q",
+            "next_state": "q0",
+            "write": "O",
+            "move": "R",
+            "shift": 2
+        },
+        {
+            "state": "q0",
+            "input": "R",
+            "next_state": "q0",
+            "write": "P",
+            "move": "R",
+            "shift": 2
+        },
+        {
+            "state": "q0",
+            "input": "S",
+            "next_state": "q0",
+            "write": "Q",
+            "move": "R",
+            "shift": 2
+        },
+        {
+            "state": "q0",
+            "input": "T",
+            "next_state": "q0",
+            "write": "R",
+            "move": "R",
+            "shift": 2
+        },
+        {
+            "state": "q0",
+            "input": "U",
+            "next_state": "q0",
+            "write": "S",
+            "move": "R",
+            "shift": 2
+        },
+        {
+            "state": "q0",
+            "input": "V",
+            "next_state": "q0",
+            "write": "T",
+            "move": "R",
+            "shift": 2
+        },
+        {
+            "state": "q0",
+            "input": "W",
+            "next_state": "q0",
+            "write": "U",
+            "move": "R",
+            "shift": 2
+        },
+        {
+            "state": "q0",
+            "input": "X",
+            "next_state": "q0",
+            "write": "V",
+            "move": "R",
+            "shift": 2
+        },
+        {
+            "state": "q0",
+            "input": "Y",
+            "next_state": "q0",
+            "write": "W",
+            "move": "R",
+            "shift": 2
+        },
+        {
+            "state": "q0",
+            "input": "Z",
+            "next_state": "q0",
+            "write": "X",
+            "move": "R",
+            "shift": 2
+        },
+        {
+            "state": "q0",
+            "input": " ",
+            "next_state": "q0",
+            "write": " ",
+            "move": "R",
+            "shift": 2
+        },
+        {
+            "state": "q0",
             "input": "A",
-            "next_state": "q3",
-            "write": "A",
-            "move": "L"
-        },
-        {
-            "state": "q3",
-            "input": "B",
-            "next_state": "q3",
-            "write": "B",
-            "move": "L"
-        },
-        {
-            "state": "q3",
-            "input": "C",
-            "next_state": "q3",
-            "write": "C",
-            "move": "L"
-        },
-        {
-            "state": "q3",
-            "input": "D",
-            "next_state": "q3",
-            "write": "D",
-            "move": "L"
-        },
-        {
-            "state": "q3",
-            "input": "E",
-            "next_state": "q3",
-            "write": "E",
-            "move": "L"
-        },
-        {
-            "state": "q3",
-            "input": "F",
-            "next_state": "q3",
-            "write": "F",
-            "move": "L"
-        },
-        {
-            "state": "q3",
-            "input": "G",
-            "next_state": "q3",
-            "write": "G",
-            "move": "L"
-        },
-        {
-            "state": "q3",
-            "input": "H",
-            "next_state": "q3",
-            "write": "H",
-            "move": "L"
-        },
-        {
-            "state": "q3",
-            "input": "I",
-            "next_state": "q3",
-            "write": "I",
-            "move": "L"
-        },
-        {
-            "state": "q3",
-            "input": "J",
-            "next_state": "q3",
-            "write": "J",
-            "move": "L"
-        },
-        {
-            "state": "q3",
-            "input": "K",
-            "next_state": "q3",
-            "write": "K",
-            "move": "L"
-        },
-        {
-            "state": "q3",
-            "input": "L",
-            "next_state": "q3",
-            "write": "L",
-            "move": "L"
-        },
-        {
-            "state": "q3",
-            "input": "M",
-            "next_state": "q3",
-            "write": "M",
-            "move": "L"
-        },
-        {
-            "state": "q3",
-            "input": "N",
-            "next_state": "q3",
-            "write": "N",
-            "move": "L"
-        },
-        {
-            "state": "q3",
-            "input": "O",
-            "next_state": "q3",
-            "write": "O",
-            "move": "L"
-        },
-        {
-            "state": "q3",
-            "input": "P",
-            "next_state": "q3",
-            "write": "P",
-            "move": "L"
-        },
-        {
-            "state": "q3",
-            "input": "Q",
-            "next_state": "q3",
-            "write": "Q",
-            "move": "L"
-        },
-        {
-            "state": "q3",
-            "input": "R",
-            "next_state": "q3",
-            "write": "R",
-            "move": "L"
-        },
-        {
-            "state": "q3",
-            "input": "S",
-            "next_state": "q3",
-            "write": "S",
-            "move": "L"
-        },
-        {
-            "state": "q3",
-            "input": "T",
-            "next_state": "q3",
-            "write": "T",
-            "move": "L"
-        },
-        {
-            "state": "q3",
-            "input": "U",
-            "next_state": "q3",
-            "write": "U",
-            "move": "L"
-        },
-        {
-            "state": "q3",
-            "input": "V",
-            "next_state": "q3",
-            "write": "V",
-            "move": "L"
-        },
-        {
-            "state": "q3",
-            "input": "W",
-            "next_state": "q3",
-            "write": "W",
-            "move": "L"
-        },
-        {
-            "state": "q3",
-            "input": "X",
-            "next_state": "q3",
+            "next_state": "q0",
             "write": "X",
-            "move": "L"
+            "move": "R",
+            "shift": 3
         },
         {
-            "state": "q3",
-            "input": "Y",
-            "next_state": "q3",
+            "state": "q0",
+            "input": "B",
+            "next_state": "q0",
             "write": "Y",
-            "move": "L"
+            "move": "R",
+            "shift": 3
         },
         {
-            "state": "q3",
-            "input": "Z",
-            "next_state": "q3",
+            "state": "q0",
+            "input": "C",
+            "next_state": "q0",
             "write": "Z",
-            "move": "L"
+            "move": "R",
+            "shift": 3
+        },
+        {
+            "state": "q0",
+            "input": "D",
+            "next_state": "q0",
+            "write": "A",
+            "move": "R",
+            "shift": 3
+        },
+        {
+            "state": "q0",
+            "input": "E",
+            "next_state": "q0",
+            "write": "B",
+            "move": "R",
+            "shift": 3
+        },
+        {
+            "state": "q0",
+            "input": "F",
+            "next_state": "q0",
+            "write": "C",
+            "move": "R",
+            "shift": 3
+        },
+        {
+            "state": "q0",
+            "input": "G",
+            "next_state": "q0",
+            "write": "D",
+            "move": "R",
+            "shift": 3
+        },
+        {
+            "state": "q0",
+            "input": "H",
+            "next_state": "q0",
+            "write": "E",
+            "move": "R",
+            "shift": 3
+        },
+        {
+            "state": "q0",
+            "input": "I",
+            "next_state": "q0",
+            "write": "F",
+            "move": "R",
+            "shift": 3
+        },
+        {
+            "state": "q0",
+            "input": "J",
+            "next_state": "q0",
+            "write": "G",
+            "move": "R",
+            "shift": 3
+        },
+        {
+            "state": "q0",
+            "input": "K",
+            "next_state": "q0",
+            "write": "H",
+            "move": "R",
+            "shift": 3
+        },
+        {
+            "state": "q0",
+            "input": "L",
+            "next_state": "q0",
+            "write": "I",
+            "move": "R",
+            "shift": 3
+        },
+        {
+            "state": "q0",
+            "input": "M",
+            "next_state": "q0",
+            "write": "J",
+            "move": "R",
+            "shift": 3
+        },
+        {
+            "state": "q0",
+            "input": "N",
+            "next_state": "q0",
+            "write": "K",
+            "move": "R",
+            "shift": 3
+        },
+        {
+            "state": "q0",
+            "input": "O",
+            "next_state": "q0",
+            "write": "L",
+            "move": "R",
+            "shift": 3
+        },
+        {
+            "state": "q0",
+            "input": "P",
+            "next_state": "q0",
+            "write": "M",
+            "move": "R",
+            "shift": 3
+        },
+        {
+            "state": "q0",
+            "input": "Q",
+            "next_state": "q0",
+            "write": "N",
+            "move": "R",
+            "shift": 3
+        },
+        {
+            "state": "q0",
+            "input": "R",
+            "next_state": "q0",
+            "write": "O",
+            "move": "R",
+            "shift": 3
+        },
+        {
+            "state": "q0",
+            "input": "S",
+            "next_state": "q0",
+            "write": "P",
+            "move": "R",
+            "shift": 3
+        },
+        {
+            "state": "q0",
+            "input": "T",
+            "next_state": "q0",
+            "write": "Q",
+            "move": "R",
+            "shift": 3
+        },
+        {
+            "state": "q0",
+            "input": "U",
+            "next_state": "q0",
+            "write": "R",
+            "move": "R",
+            "shift": 3
+        },
+        {
+            "state": "q0",
+            "input": "V",
+            "next_state": "q0",
+            "write": "S",
+            "move": "R",
+            "shift": 3
+        },
+        {
+            "state": "q0",
+            "input": "W",
+            "next_state": "q0",
+            "write": "T",
+            "move": "R",
+            "shift": 3
+        },
+        {
+            "state": "q0",
+            "input": "X",
+            "next_state": "q0",
+            "write": "U",
+            "move": "R",
+            "shift": 3
+        },
+        {
+            "state": "q0",
+            "input": "Y",
+            "next_state": "q0",
+            "write": "V",
+            "move": "R",
+            "shift": 3
+        },
+        {
+            "state": "q0",
+            "input": "Z",
+            "next_state": "q0",
+            "write": "W",
+            "move": "R",
+            "shift": 3
+        },
+        {
+            "state": "q0",
+            "input": " ",
+            "next_state": "q0",
+            "write": " ",
+            "move": "R",
+            "shift": 3
+        },
+        {
+            "state": "q0",
+            "input": "A",
+            "next_state": "q0",
+            "write": "W",
+            "move": "R",
+            "shift": 4
+        },
+        {
+            "state": "q0",
+            "input": "B",
+            "next_state": "q0",
+            "write": "X",
+            "move": "R",
+            "shift": 4
+        },
+        {
+            "state": "q0",
+            "input": "C",
+            "next_state": "q0",
+            "write": "Y",
+            "move": "R",
+            "shift": 4
+        },
+        {
+            "state": "q0",
+            "input": "D",
+            "next_state": "q0",
+            "write": "Z",
+            "move": "R",
+            "shift": 4
+        },
+        {
+            "state": "q0",
+            "input": "E",
+            "next_state": "q0",
+            "write": "A",
+            "move": "R",
+            "shift": 4
+        },
+        {
+            "state": "q0",
+            "input": "F",
+            "next_state": "q0",
+            "write": "B",
+            "move": "R",
+            "shift": 4
+        },
+        {
+            "state": "q0",
+            "input": "G",
+            "next_state": "q0",
+            "write": "C",
+            "move": "R",
+            "shift": 4
+        },
+        {
+            "state": "q0",
+            "input": "H",
+            "next_state": "q0",
+            "write": "D",
+            "move": "R",
+            "shift": 4
+        },
+        {
+            "state": "q0",
+            "input": "I",
+            "next_state": "q0",
+            "write": "E",
+            "move": "R",
+            "shift": 4
+        },
+        {
+            "state": "q0",
+            "input": "J",
+            "next_state": "q0",
+            "write": "F",
+            "move": "R",
+            "shift": 4
+        },
+        {
+            "state": "q0",
+            "input": "K",
+            "next_state": "q0",
+            "write": "G",
+            "move": "R",
+            "shift": 4
+        },
+        {
+            "state": "q0",
+            "input": "L",
+            "next_state": "q0",
+            "write": "H",
+            "move": "R",
+            "shift": 4
+        },
+        {
+            "state": "q0",
+            "input": "M",
+            "next_state": "q0",
+            "write": "I",
+            "move": "R",
+            "shift": 4
+        },
+        {
+            "state": "q0",
+            "input": "N",
+            "next_state": "q0",
+            "write": "J",
+            "move": "R",
+            "shift": 4
+        },
+        {
+            "state": "q0",
+            "input": "O",
+            "next_state": "q0",
+            "write": "K",
+            "move": "R",
+            "shift": 4
+        },
+        {
+            "state": "q0",
+            "input": "P",
+            "next_state": "q0",
+            "write": "L",
+            "move": "R",
+            "shift": 4
+        },
+        {
+            "state": "q0",
+            "input": "Q",
+            "next_state": "q0",
+            "write": "M",
+            "move": "R",
+            "shift": 4
+        },
+        {
+            "state": "q0",
+            "input": "R",
+            "next_state": "q0",
+            "write": "N",
+            "move": "R",
+            "shift": 4
+        },
+        {
+            "state": "q0",
+            "input": "S",
+            "next_state": "q0",
+            "write": "O",
+            "move": "R",
+            "shift": 4
+        },
+        {
+            "state": "q0",
+            "input": "T",
+            "next_state": "q0",
+            "write": "P",
+            "move": "R",
+            "shift": 4
+        },
+        {
+            "state": "q0",
+            "input": "U",
+            "next_state": "q0",
+            "write": "Q",
+            "move": "R",
+            "shift": 4
+        },
+        {
+            "state": "q0",
+            "input": "V",
+            "next_state": "q0",
+            "write": "R",
+            "move": "R",
+            "shift": 4
+        },
+        {
+            "state": "q0",
+            "input": "W",
+            "next_state": "q0",
+            "write": "S",
+            "move": "R",
+            "shift": 4
+        },
+        {
+            "state": "q0",
+            "input": "X",
+            "next_state": "q0",
+            "write": "T",
+            "move": "R",
+            "shift": 4
+        },
+        {
+            "state": "q0",
+            "input": "Y",
+            "next_state": "q0",
+            "write": "U",
+            "move": "R",
+            "shift": 4
+        },
+        {
+            "state": "q0",
+            "input": "Z",
+            "next_state": "q0",
+            "write": "V",
+            "move": "R",
+            "shift": 4
+        },
+        {
+            "state": "q0",
+            "input": " ",
+            "next_state": "q0",
+            "write": " ",
+            "move": "R",
+            "shift": 4
+        },
+        {
+            "state": "q0",
+            "input": "A",
+            "next_state": "q0",
+            "write": "V",
+            "move": "R",
+            "shift": 5
+        },
+        {
+            "state": "q0",
+            "input": "B",
+            "next_state": "q0",
+            "write": "W",
+            "move": "R",
+            "shift": 5
+        },
+        {
+            "state": "q0",
+            "input": "C",
+            "next_state": "q0",
+            "write": "X",
+            "move": "R",
+            "shift": 5
+        },
+        {
+            "state": "q0",
+            "input": "D",
+            "next_state": "q0",
+            "write": "Y",
+            "move": "R",
+            "shift": 5
+        },
+        {
+            "state": "q0",
+            "input": "E",
+            "next_state": "q0",
+            "write": "Z",
+            "move": "R",
+            "shift": 5
+        },
+        {
+            "state": "q0",
+            "input": "F",
+            "next_state": "q0",
+            "write": "A",
+            "move": "R",
+            "shift": 5
+        },
+        {
+            "state": "q0",
+            "input": "G",
+            "next_state": "q0",
+            "write": "B",
+            "move": "R",
+            "shift": 5
+        },
+        {
+            "state": "q0",
+            "input": "H",
+            "next_state": "q0",
+            "write": "C",
+            "move": "R",
+            "shift": 5
+        },
+        {
+            "state": "q0",
+            "input": "I",
+            "next_state": "q0",
+            "write": "D",
+            "move": "R",
+            "shift": 5
+        },
+        {
+            "state": "q0",
+            "input": "J",
+            "next_state": "q0",
+            "write": "E",
+            "move": "R",
+            "shift": 5
+        },
+        {
+            "state": "q0",
+            "input": "K",
+            "next_state": "q0",
+            "write": "F",
+            "move": "R",
+            "shift": 5
+        },
+        {
+            "state": "q0",
+            "input": "L",
+            "next_state": "q0",
+            "write": "G",
+            "move": "R",
+            "shift": 5
+        },
+        {
+            "state": "q0",
+            "input": "M",
+            "next_state": "q0",
+            "write": "H",
+            "move": "R",
+            "shift": 5
+        },
+        {
+            "state": "q0",
+            "input": "N",
+            "next_state": "q0",
+            "write": "I",
+            "move": "R",
+            "shift": 5
+        },
+        {
+            "state": "q0",
+            "input": "O",
+            "next_state": "q0",
+            "write": "J",
+            "move": "R",
+            "shift": 5
+        },
+        {
+            "state": "q0",
+            "input": "P",
+            "next_state": "q0",
+            "write": "K",
+            "move": "R",
+            "shift": 5
+        },
+        {
+            "state": "q0",
+            "input": "Q",
+            "next_state": "q0",
+            "write": "L",
+            "move": "R",
+            "shift": 5
+        },
+        {
+            "state": "q0",
+            "input": "R",
+            "next_state": "q0",
+            "write": "M",
+            "move": "R",
+            "shift": 5
+        },
+        {
+            "state": "q0",
+            "input": "S",
+            "next_state": "q0",
+            "write": "N",
+            "move": "R",
+            "shift": 5
+        },
+        {
+            "state": "q0",
+            "input": "T",
+            "next_state": "q0",
+            "write": "O",
+            "move": "R",
+            "shift": 5
+        },
+        {
+            "state": "q0",
+            "input": "U",
+            "next_state": "q0",
+            "write": "P",
+            "move": "R",
+            "shift": 5
+        },
+        {
+            "state": "q0",
+            "input": "V",
+            "next_state": "q0",
+            "write": "Q",
+            "move": "R",
+            "shift": 5
+        },
+        {
+            "state": "q0",
+            "input": "W",
+            "next_state": "q0",
+            "write": "R",
+            "move": "R",
+            "shift": 5
+        },
+        {
+            "state": "q0",
+            "input": "X",
+            "next_state": "q0",
+            "write": "S",
+            "move": "R",
+            "shift": 5
+        },
+        {
+            "state": "q0",
+            "input": "Y",
+            "next_state": "q0",
+            "write": "T",
+            "move": "R",
+            "shift": 5
+        },
+        {
+            "state": "q0",
+            "input": "Z",
+            "next_state": "q0",
+            "write": "U",
+            "move": "R",
+            "shift": 5
+        },
+        {
+            "state": "q0",
+            "input": " ",
+            "next_state": "q0",
+            "write": " ",
+            "move": "R",
+            "shift": 5
+        },
+        {
+            "state": "q0",
+            "input": "A",
+            "next_state": "q0",
+            "write": "U",
+            "move": "R",
+            "shift": 6
+        },
+        {
+            "state": "q0",
+            "input": "B",
+            "next_state": "q0",
+            "write": "V",
+            "move": "R",
+            "shift": 6
+        },
+        {
+            "state": "q0",
+            "input": "C",
+            "next_state": "q0",
+            "write": "W",
+            "move": "R",
+            "shift": 6
+        },
+        {
+            "state": "q0",
+            "input": "D",
+            "next_state": "q0",
+            "write": "X",
+            "move": "R",
+            "shift": 6
+        },
+        {
+            "state": "q0",
+            "input": "E",
+            "next_state": "q0",
+            "write": "Y",
+            "move": "R",
+            "shift": 6
+        },
+        {
+            "state": "q0",
+            "input": "F",
+            "next_state": "q0",
+            "write": "Z",
+            "move": "R",
+            "shift": 6
+        },
+        {
+            "state": "q0",
+            "input": "G",
+            "next_state": "q0",
+            "write": "A",
+            "move": "R",
+            "shift": 6
+        },
+        {
+            "state": "q0",
+            "input": "H",
+            "next_state": "q0",
+            "write": "B",
+            "move": "R",
+            "shift": 6
+        },
+        {
+            "state": "q0",
+            "input": "I",
+            "next_state": "q0",
+            "write": "C",
+            "move": "R",
+            "shift": 6
+        },
+        {
+            "state": "q0",
+            "input": "J",
+            "next_state": "q0",
+            "write": "D",
+            "move": "R",
+            "shift": 6
+        },
+        {
+            "state": "q0",
+            "input": "K",
+            "next_state": "q0",
+            "write": "E",
+            "move": "R",
+            "shift": 6
+        },
+        {
+            "state": "q0",
+            "input": "L",
+            "next_state": "q0",
+            "write": "F",
+            "move": "R",
+            "shift": 6
+        },
+        {
+            "state": "q0",
+            "input": "M",
+            "next_state": "q0",
+            "write": "G",
+            "move": "R",
+            "shift": 6
+        },
+        {
+            "state": "q0",
+            "input": "N",
+            "next_state": "q0",
+            "write": "H",
+            "move": "R",
+            "shift": 6
+        },
+        {
+            "state": "q0",
+            "input": "O",
+            "next_state": "q0",
+            "write": "I",
+            "move": "R",
+            "shift": 6
+        },
+        {
+            "state": "q0",
+            "input": "P",
+            "next_state": "q0",
+            "write": "J",
+            "move": "R",
+            "shift": 6
+        },
+        {
+            "state": "q0",
+            "input": "Q",
+            "next_state": "q0",
+            "write": "K",
+            "move": "R",
+            "shift": 6
+        },
+        {
+            "state": "q0",
+            "input": "R",
+            "next_state": "q0",
+            "write": "L",
+            "move": "R",
+            "shift": 6
+        },
+        {
+            "state": "q0",
+            "input": "S",
+            "next_state": "q0",
+            "write": "M",
+            "move": "R",
+            "shift": 6
+        },
+        {
+            "state": "q0",
+            "input": "T",
+            "next_state": "q0",
+            "write": "N",
+            "move": "R",
+            "shift": 6
+        },
+        {
+            "state": "q0",
+            "input": "U",
+            "next_state": "q0",
+            "write": "O",
+            "move": "R",
+            "shift": 6
+        },
+        {
+            "state": "q0",
+            "input": "V",
+            "next_state": "q0",
+            "write": "P",
+            "move": "R",
+            "shift": 6
+        },
+        {
+            "state": "q0",
+            "input": "W",
+            "next_state": "q0",
+            "write": "Q",
+            "move": "R",
+            "shift": 6
+        },
+        {
+            "state": "q0",
+            "input": "X",
+            "next_state": "q0",
+            "write": "R",
+            "move": "R",
+            "shift": 6
+        },
+        {
+            "state": "q0",
+            "input": "Y",
+            "next_state": "q0",
+            "write": "S",
+            "move": "R",
+            "shift": 6
+        },
+        {
+            "state": "q0",
+            "input": "Z",
+            "next_state": "q0",
+            "write": "T",
+            "move": "R",
+            "shift": 6
+        },
+        {
+            "state": "q0",
+            "input": " ",
+            "next_state": "q0",
+            "write": " ",
+            "move": "R",
+            "shift": 6
+        },
+        {
+            "state": "q0",
+            "input": "A",
+            "next_state": "q0",
+            "write": "T",
+            "move": "R",
+            "shift": 7
+        },
+        {
+            "state": "q0",
+            "input": "B",
+            "next_state": "q0",
+            "write": "U",
+            "move": "R",
+            "shift": 7
+        },
+        {
+            "state": "q0",
+            "input": "C",
+            "next_state": "q0",
+            "write": "V",
+            "move": "R",
+            "shift": 7
+        },
+        {
+            "state": "q0",
+            "input": "D",
+            "next_state": "q0",
+            "write": "W",
+            "move": "R",
+            "shift": 7
+        },
+        {
+            "state": "q0",
+            "input": "E",
+            "next_state": "q0",
+            "write": "X",
+            "move": "R",
+            "shift": 7
+        },
+        {
+            "state": "q0",
+            "input": "F",
+            "next_state": "q0",
+            "write": "Y",
+            "move": "R",
+            "shift": 7
+        },
+        {
+            "state": "q0",
+            "input": "G",
+            "next_state": "q0",
+            "write": "Z",
+            "move": "R",
+            "shift": 7
+        },
+        {
+            "state": "q0",
+            "input": "H",
+            "next_state": "q0",
+            "write": "A",
+            "move": "R",
+            "shift": 7
+        },
+        {
+            "state": "q0",
+            "input": "I",
+            "next_state": "q0",
+            "write": "B",
+            "move": "R",
+            "shift": 7
+        },
+        {
+            "state": "q0",
+            "input": "J",
+            "next_state": "q0",
+            "write": "C",
+            "move": "R",
+            "shift": 7
+        },
+        {
+            "state": "q0",
+            "input": "K",
+            "next_state": "q0",
+            "write": "D",
+            "move": "R",
+            "shift": 7
+        },
+        {
+            "state": "q0",
+            "input": "L",
+            "next_state": "q0",
+            "write": "E",
+            "move": "R",
+            "shift": 7
+        },
+        {
+            "state": "q0",
+            "input": "M",
+            "next_state": "q0",
+            "write": "F",
+            "move": "R",
+            "shift": 7
+        },
+        {
+            "state": "q0",
+            "input": "N",
+            "next_state": "q0",
+            "write": "G",
+            "move": "R",
+            "shift": 7
+        },
+        {
+            "state": "q0",
+            "input": "O",
+            "next_state": "q0",
+            "write": "H",
+            "move": "R",
+            "shift": 7
+        },
+        {
+            "state": "q0",
+            "input": "P",
+            "next_state": "q0",
+            "write": "I",
+            "move": "R",
+            "shift": 7
+        },
+        {
+            "state": "q0",
+            "input": "Q",
+            "next_state": "q0",
+            "write": "J",
+            "move": "R",
+            "shift": 7
+        },
+        {
+            "state": "q0",
+            "input": "R",
+            "next_state": "q0",
+            "write": "K",
+            "move": "R",
+            "shift": 7
+        },
+        {
+            "state": "q0",
+            "input": "S",
+            "next_state": "q0",
+            "write": "L",
+            "move": "R",
+            "shift": 7
+        },
+        {
+            "state": "q0",
+            "input": "T",
+            "next_state": "q0",
+            "write": "M",
+            "move": "R",
+            "shift": 7
+        },
+        {
+            "state": "q0",
+            "input": "U",
+            "next_state": "q0",
+            "write": "N",
+            "move": "R",
+            "shift": 7
+        },
+        {
+            "state": "q0",
+            "input": "V",
+            "next_state": "q0",
+            "write": "O",
+            "move": "R",
+            "shift": 7
+        },
+        {
+            "state": "q0",
+            "input": "W",
+            "next_state": "q0",
+            "write": "P",
+            "move": "R",
+            "shift": 7
+        },
+        {
+            "state": "q0",
+            "input": "X",
+            "next_state": "q0",
+            "write": "Q",
+            "move": "R",
+            "shift": 7
+        },
+        {
+            "state": "q0",
+            "input": "Y",
+            "next_state": "q0",
+            "write": "R",
+            "move": "R",
+            "shift": 7
+        },
+        {
+            "state": "q0",
+            "input": "Z",
+            "next_state": "q0",
+            "write": "S",
+            "move": "R",
+            "shift": 7
+        },
+        {
+            "state": "q0",
+            "input": " ",
+            "next_state": "q0",
+            "write": " ",
+            "move": "R",
+            "shift": 7
+        },
+        {
+            "state": "q0",
+            "input": "A",
+            "next_state": "q0",
+            "write": "S",
+            "move": "R",
+            "shift": 8
+        },
+        {
+            "state": "q0",
+            "input": "B",
+            "next_state": "q0",
+            "write": "T",
+            "move": "R",
+            "shift": 8
+        },
+        {
+            "state": "q0",
+            "input": "C",
+            "next_state": "q0",
+            "write": "U",
+            "move": "R",
+            "shift": 8
+        },
+        {
+            "state": "q0",
+            "input": "D",
+            "next_state": "q0",
+            "write": "V",
+            "move": "R",
+            "shift": 8
+        },
+        {
+            "state": "q0",
+            "input": "E",
+            "next_state": "q0",
+            "write": "W",
+            "move": "R",
+            "shift": 8
+        },
+        {
+            "state": "q0",
+            "input": "F",
+            "next_state": "q0",
+            "write": "X",
+            "move": "R",
+            "shift": 8
+        },
+        {
+            "state": "q0",
+            "input": "G",
+            "next_state": "q0",
+            "write": "Y",
+            "move": "R",
+            "shift": 8
+        },
+        {
+            "state": "q0",
+            "input": "H",
+            "next_state": "q0",
+            "write": "Z",
+            "move": "R",
+            "shift": 8
+        },
+        {
+            "state": "q0",
+            "input": "I",
+            "next_state": "q0",
+            "write": "A",
+            "move": "R",
+            "shift": 8
+        },
+        {
+            "state": "q0",
+            "input": "J",
+            "next_state": "q0",
+            "write": "B",
+            "move": "R",
+            "shift": 8
+        },
+        {
+            "state": "q0",
+            "input": "K",
+            "next_state": "q0",
+            "write": "C",
+            "move": "R",
+            "shift": 8
+        },
+        {
+            "state": "q0",
+            "input": "L",
+            "next_state": "q0",
+            "write": "D",
+            "move": "R",
+            "shift": 8
+        },
+        {
+            "state": "q0",
+            "input": "M",
+            "next_state": "q0",
+            "write": "E",
+            "move": "R",
+            "shift": 8
+        },
+        {
+            "state": "q0",
+            "input": "N",
+            "next_state": "q0",
+            "write": "F",
+            "move": "R",
+            "shift": 8
+        },
+        {
+            "state": "q0",
+            "input": "O",
+            "next_state": "q0",
+            "write": "G",
+            "move": "R",
+            "shift": 8
+        },
+        {
+            "state": "q0",
+            "input": "P",
+            "next_state": "q0",
+            "write": "H",
+            "move": "R",
+            "shift": 8
+        },
+        {
+            "state": "q0",
+            "input": "Q",
+            "next_state": "q0",
+            "write": "I",
+            "move": "R",
+            "shift": 8
+        },
+        {
+            "state": "q0",
+            "input": "R",
+            "next_state": "q0",
+            "write": "J",
+            "move": "R",
+            "shift": 8
+        },
+        {
+            "state": "q0",
+            "input": "S",
+            "next_state": "q0",
+            "write": "K",
+            "move": "R",
+            "shift": 8
+        },
+        {
+            "state": "q0",
+            "input": "T",
+            "next_state": "q0",
+            "write": "L",
+            "move": "R",
+            "shift": 8
+        },
+        {
+            "state": "q0",
+            "input": "U",
+            "next_state": "q0",
+            "write": "M",
+            "move": "R",
+            "shift": 8
+        },
+        {
+            "state": "q0",
+            "input": "V",
+            "next_state": "q0",
+            "write": "N",
+            "move": "R",
+            "shift": 8
+        },
+        {
+            "state": "q0",
+            "input": "W",
+            "next_state": "q0",
+            "write": "O",
+            "move": "R",
+            "shift": 8
+        },
+        {
+            "state": "q0",
+            "input": "X",
+            "next_state": "q0",
+            "write": "P",
+            "move": "R",
+            "shift": 8
+        },
+        {
+            "state": "q0",
+            "input": "Y",
+            "next_state": "q0",
+            "write": "Q",
+            "move": "R",
+            "shift": 8
+        },
+        {
+            "state": "q0",
+            "input": "Z",
+            "next_state": "q0",
+            "write": "R",
+            "move": "R",
+            "shift": 8
+        },
+        {
+            "state": "q0",
+            "input": " ",
+            "next_state": "q0",
+            "write": " ",
+            "move": "R",
+            "shift": 8
+        },
+        {
+            "state": "q0",
+            "input": "A",
+            "next_state": "q0",
+            "write": "R",
+            "move": "R",
+            "shift": 9
+        },
+        {
+            "state": "q0",
+            "input": "B",
+            "next_state": "q0",
+            "write": "S",
+            "move": "R",
+            "shift": 9
+        },
+        {
+            "state": "q0",
+            "input": "C",
+            "next_state": "q0",
+            "write": "T",
+            "move": "R",
+            "shift": 9
+        },
+        {
+            "state": "q0",
+            "input": "D",
+            "next_state": "q0",
+            "write": "U",
+            "move": "R",
+            "shift": 9
+        },
+        {
+            "state": "q0",
+            "input": "E",
+            "next_state": "q0",
+            "write": "V",
+            "move": "R",
+            "shift": 9
+        },
+        {
+            "state": "q0",
+            "input": "F",
+            "next_state": "q0",
+            "write": "W",
+            "move": "R",
+            "shift": 9
+        },
+        {
+            "state": "q0",
+            "input": "G",
+            "next_state": "q0",
+            "write": "X",
+            "move": "R",
+            "shift": 9
+        },
+        {
+            "state": "q0",
+            "input": "H",
+            "next_state": "q0",
+            "write": "Y",
+            "move": "R",
+            "shift": 9
+        },
+        {
+            "state": "q0",
+            "input": "I",
+            "next_state": "q0",
+            "write": "Z",
+            "move": "R",
+            "shift": 9
+        },
+        {
+            "state": "q0",
+            "input": "J",
+            "next_state": "q0",
+            "write": "A",
+            "move": "R",
+            "shift": 9
+        },
+        {
+            "state": "q0",
+            "input": "K",
+            "next_state": "q0",
+            "write": "B",
+            "move": "R",
+            "shift": 9
+        },
+        {
+            "state": "q0",
+            "input": "L",
+            "next_state": "q0",
+            "write": "C",
+            "move": "R",
+            "shift": 9
+        },
+        {
+            "state": "q0",
+            "input": "M",
+            "next_state": "q0",
+            "write": "D",
+            "move": "R",
+            "shift": 9
+        },
+        {
+            "state": "q0",
+            "input": "N",
+            "next_state": "q0",
+            "write": "E",
+            "move": "R",
+            "shift": 9
+        },
+        {
+            "state": "q0",
+            "input": "O",
+            "next_state": "q0",
+            "write": "F",
+            "move": "R",
+            "shift": 9
+        },
+        {
+            "state": "q0",
+            "input": "P",
+            "next_state": "q0",
+            "write": "G",
+            "move": "R",
+            "shift": 9
+        },
+        {
+            "state": "q0",
+            "input": "Q",
+            "next_state": "q0",
+            "write": "H",
+            "move": "R",
+            "shift": 9
+        },
+        {
+            "state": "q0",
+            "input": "R",
+            "next_state": "q0",
+            "write": "I",
+            "move": "R",
+            "shift": 9
+        },
+        {
+            "state": "q0",
+            "input": "S",
+            "next_state": "q0",
+            "write": "J",
+            "move": "R",
+            "shift": 9
+        },
+        {
+            "state": "q0",
+            "input": "T",
+            "next_state": "q0",
+            "write": "K",
+            "move": "R",
+            "shift": 9
+        },
+        {
+            "state": "q0",
+            "input": "U",
+            "next_state": "q0",
+            "write": "L",
+            "move": "R",
+            "shift": 9
+        },
+        {
+            "state": "q0",
+            "input": "V",
+            "next_state": "q0",
+            "write": "M",
+            "move": "R",
+            "shift": 9
+        },
+        {
+            "state": "q0",
+            "input": "W",
+            "next_state": "q0",
+            "write": "N",
+            "move": "R",
+            "shift": 9
+        },
+        {
+            "state": "q0",
+            "input": "X",
+            "next_state": "q0",
+            "write": "O",
+            "move": "R",
+            "shift": 9
+        },
+        {
+            "state": "q0",
+            "input": "Y",
+            "next_state": "q0",
+            "write": "P",
+            "move": "R",
+            "shift": 9
+        },
+        {
+            "state": "q0",
+            "input": "Z",
+            "next_state": "q0",
+            "write": "Q",
+            "move": "R",
+            "shift": 9
+        },
+        {
+            "state": "q0",
+            "input": " ",
+            "next_state": "q0",
+            "write": " ",
+            "move": "R",
+            "shift": 9
+        },
+        {
+            "state": "q0",
+            "input": "A",
+            "next_state": "q0",
+            "write": "Q",
+            "move": "R",
+            "shift": 10
+        },
+        {
+            "state": "q0",
+            "input": "B",
+            "next_state": "q0",
+            "write": "R",
+            "move": "R",
+            "shift": 10
+        },
+        {
+            "state": "q0",
+            "input": "C",
+            "next_state": "q0",
+            "write": "S",
+            "move": "R",
+            "shift": 10
+        },
+        {
+            "state": "q0",
+            "input": "D",
+            "next_state": "q0",
+            "write": "T",
+            "move": "R",
+            "shift": 10
+        },
+        {
+            "state": "q0",
+            "input": "E",
+            "next_state": "q0",
+            "write": "U",
+            "move": "R",
+            "shift": 10
+        },
+        {
+            "state": "q0",
+            "input": "F",
+            "next_state": "q0",
+            "write": "V",
+            "move": "R",
+            "shift": 10
+        },
+        {
+            "state": "q0",
+            "input": "G",
+            "next_state": "q0",
+            "write": "W",
+            "move": "R",
+            "shift": 10
+        },
+        {
+            "state": "q0",
+            "input": "H",
+            "next_state": "q0",
+            "write": "X",
+            "move": "R",
+            "shift": 10
+        },
+        {
+            "state": "q0",
+            "input": "I",
+            "next_state": "q0",
+            "write": "Y",
+            "move": "R",
+            "shift": 10
+        },
+        {
+            "state": "q0",
+            "input": "J",
+            "next_state": "q0",
+            "write": "Z",
+            "move": "R",
+            "shift": 10
+        },
+        {
+            "state": "q0",
+            "input": "K",
+            "next_state": "q0",
+            "write": "A",
+            "move": "R",
+            "shift": 10
+        },
+        {
+            "state": "q0",
+            "input": "L",
+            "next_state": "q0",
+            "write": "B",
+            "move": "R",
+            "shift": 10
+        },
+        {
+            "state": "q0",
+            "input": "M",
+            "next_state": "q0",
+            "write": "C",
+            "move": "R",
+            "shift": 10
+        },
+        {
+            "state": "q0",
+            "input": "N",
+            "next_state": "q0",
+            "write": "D",
+            "move": "R",
+            "shift": 10
+        },
+        {
+            "state": "q0",
+            "input": "O",
+            "next_state": "q0",
+            "write": "E",
+            "move": "R",
+            "shift": 10
+        },
+        {
+            "state": "q0",
+            "input": "P",
+            "next_state": "q0",
+            "write": "F",
+            "move": "R",
+            "shift": 10
+        },
+        {
+            "state": "q0",
+            "input": "Q",
+            "next_state": "q0",
+            "write": "G",
+            "move": "R",
+            "shift": 10
+        },
+        {
+            "state": "q0",
+            "input": "R",
+            "next_state": "q0",
+            "write": "H",
+            "move": "R",
+            "shift": 10
+        },
+        {
+            "state": "q0",
+            "input": "S",
+            "next_state": "q0",
+            "write": "I",
+            "move": "R",
+            "shift": 10
+        },
+        {
+            "state": "q0",
+            "input": "T",
+            "next_state": "q0",
+            "write": "J",
+            "move": "R",
+            "shift": 10
+        },
+        {
+            "state": "q0",
+            "input": "U",
+            "next_state": "q0",
+            "write": "K",
+            "move": "R",
+            "shift": 10
+        },
+        {
+            "state": "q0",
+            "input": "V",
+            "next_state": "q0",
+            "write": "L",
+            "move": "R",
+            "shift": 10
+        },
+        {
+            "state": "q0",
+            "input": "W",
+            "next_state": "q0",
+            "write": "M",
+            "move": "R",
+            "shift": 10
+        },
+        {
+            "state": "q0",
+            "input": "X",
+            "next_state": "q0",
+            "write": "N",
+            "move": "R",
+            "shift": 10
+        },
+        {
+            "state": "q0",
+            "input": "Y",
+            "next_state": "q0",
+            "write": "O",
+            "move": "R",
+            "shift": 10
+        },
+        {
+            "state": "q0",
+            "input": "Z",
+            "next_state": "q0",
+            "write": "P",
+            "move": "R",
+            "shift": 10
+        },
+        {
+            "state": "q0",
+            "input": " ",
+            "next_state": "q0",
+            "write": " ",
+            "move": "R",
+            "shift": 10
+        },
+        {
+            "state": "q0",
+            "input": "A",
+            "next_state": "q0",
+            "write": "P",
+            "move": "R",
+            "shift": 11
+        },
+        {
+            "state": "q0",
+            "input": "B",
+            "next_state": "q0",
+            "write": "Q",
+            "move": "R",
+            "shift": 11
+        },
+        {
+            "state": "q0",
+            "input": "C",
+            "next_state": "q0",
+            "write": "R",
+            "move": "R",
+            "shift": 11
+        },
+        {
+            "state": "q0",
+            "input": "D",
+            "next_state": "q0",
+            "write": "S",
+            "move": "R",
+            "shift": 11
+        },
+        {
+            "state": "q0",
+            "input": "E",
+            "next_state": "q0",
+            "write": "T",
+            "move": "R",
+            "shift": 11
+        },
+        {
+            "state": "q0",
+            "input": "F",
+            "next_state": "q0",
+            "write": "U",
+            "move": "R",
+            "shift": 11
+        },
+        {
+            "state": "q0",
+            "input": "G",
+            "next_state": "q0",
+            "write": "V",
+            "move": "R",
+            "shift": 11
+        },
+        {
+            "state": "q0",
+            "input": "H",
+            "next_state": "q0",
+            "write": "W",
+            "move": "R",
+            "shift": 11
+        },
+        {
+            "state": "q0",
+            "input": "I",
+            "next_state": "q0",
+            "write": "X",
+            "move": "R",
+            "shift": 11
+        },
+        {
+            "state": "q0",
+            "input": "J",
+            "next_state": "q0",
+            "write": "Y",
+            "move": "R",
+            "shift": 11
+        },
+        {
+            "state": "q0",
+            "input": "K",
+            "next_state": "q0",
+            "write": "Z",
+            "move": "R",
+            "shift": 11
+        },
+        {
+            "state": "q0",
+            "input": "L",
+            "next_state": "q0",
+            "write": "A",
+            "move": "R",
+            "shift": 11
+        },
+        {
+            "state": "q0",
+            "input": "M",
+            "next_state": "q0",
+            "write": "B",
+            "move": "R",
+            "shift": 11
+        },
+        {
+            "state": "q0",
+            "input": "N",
+            "next_state": "q0",
+            "write": "C",
+            "move": "R",
+            "shift": 11
+        },
+        {
+            "state": "q0",
+            "input": "O",
+            "next_state": "q0",
+            "write": "D",
+            "move": "R",
+            "shift": 11
+        },
+        {
+            "state": "q0",
+            "input": "P",
+            "next_state": "q0",
+            "write": "E",
+            "move": "R",
+            "shift": 11
+        },
+        {
+            "state": "q0",
+            "input": "Q",
+            "next_state": "q0",
+            "write": "F",
+            "move": "R",
+            "shift": 11
+        },
+        {
+            "state": "q0",
+            "input": "R",
+            "next_state": "q0",
+            "write": "G",
+            "move": "R",
+            "shift": 11
+        },
+        {
+            "state": "q0",
+            "input": "S",
+            "next_state": "q0",
+            "write": "H",
+            "move": "R",
+            "shift": 11
+        },
+        {
+            "state": "q0",
+            "input": "T",
+            "next_state": "q0",
+            "write": "I",
+            "move": "R",
+            "shift": 11
+        },
+        {
+            "state": "q0",
+            "input": "U",
+            "next_state": "q0",
+            "write": "J",
+            "move": "R",
+            "shift": 11
+        },
+        {
+            "state": "q0",
+            "input": "V",
+            "next_state": "q0",
+            "write": "K",
+            "move": "R",
+            "shift": 11
+        },
+        {
+            "state": "q0",
+            "input": "W",
+            "next_state": "q0",
+            "write": "L",
+            "move": "R",
+            "shift": 11
+        },
+        {
+            "state": "q0",
+            "input": "X",
+            "next_state": "q0",
+            "write": "M",
+            "move": "R",
+            "shift": 11
+        },
+        {
+            "state": "q0",
+            "input": "Y",
+            "next_state": "q0",
+            "write": "N",
+            "move": "R",
+            "shift": 11
+        },
+        {
+            "state": "q0",
+            "input": "Z",
+            "next_state": "q0",
+            "write": "O",
+            "move": "R",
+            "shift": 11
+        },
+        {
+            "state": "q0",
+            "input": " ",
+            "next_state": "q0",
+            "write": " ",
+            "move": "R",
+            "shift": 11
+        },
+        {
+            "state": "q0",
+            "input": "A",
+            "next_state": "q0",
+            "write": "O",
+            "move": "R",
+            "shift": 12
+        },
+        {
+            "state": "q0",
+            "input": "B",
+            "next_state": "q0",
+            "write": "P",
+            "move": "R",
+            "shift": 12
+        },
+        {
+            "state": "q0",
+            "input": "C",
+            "next_state": "q0",
+            "write": "Q",
+            "move": "R",
+            "shift": 12
+        },
+        {
+            "state": "q0",
+            "input": "D",
+            "next_state": "q0",
+            "write": "R",
+            "move": "R",
+            "shift": 12
+        },
+        {
+            "state": "q0",
+            "input": "E",
+            "next_state": "q0",
+            "write": "S",
+            "move": "R",
+            "shift": 12
+        },
+        {
+            "state": "q0",
+            "input": "F",
+            "next_state": "q0",
+            "write": "T",
+            "move": "R",
+            "shift": 12
+        },
+        {
+            "state": "q0",
+            "input": "G",
+            "next_state": "q0",
+            "write": "U",
+            "move": "R",
+            "shift": 12
+        },
+        {
+            "state": "q0",
+            "input": "H",
+            "next_state": "q0",
+            "write": "V",
+            "move": "R",
+            "shift": 12
+        },
+        {
+            "state": "q0",
+            "input": "I",
+            "next_state": "q0",
+            "write": "W",
+            "move": "R",
+            "shift": 12
+        },
+        {
+            "state": "q0",
+            "input": "J",
+            "next_state": "q0",
+            "write": "X",
+            "move": "R",
+            "shift": 12
+        },
+        {
+            "state": "q0",
+            "input": "K",
+            "next_state": "q0",
+            "write": "Y",
+            "move": "R",
+            "shift": 12
+        },
+        {
+            "state": "q0",
+            "input": "L",
+            "next_state": "q0",
+            "write": "Z",
+            "move": "R",
+            "shift": 12
+        },
+        {
+            "state": "q0",
+            "input": "M",
+            "next_state": "q0",
+            "write": "A",
+            "move": "R",
+            "shift": 12
+        },
+        {
+            "state": "q0",
+            "input": "N",
+            "next_state": "q0",
+            "write": "B",
+            "move": "R",
+            "shift": 12
+        },
+        {
+            "state": "q0",
+            "input": "O",
+            "next_state": "q0",
+            "write": "C",
+            "move": "R",
+            "shift": 12
+        },
+        {
+            "state": "q0",
+            "input": "P",
+            "next_state": "q0",
+            "write": "D",
+            "move": "R",
+            "shift": 12
+        },
+        {
+            "state": "q0",
+            "input": "Q",
+            "next_state": "q0",
+            "write": "E",
+            "move": "R",
+            "shift": 12
+        },
+        {
+            "state": "q0",
+            "input": "R",
+            "next_state": "q0",
+            "write": "F",
+            "move": "R",
+            "shift": 12
+        },
+        {
+            "state": "q0",
+            "input": "S",
+            "next_state": "q0",
+            "write": "G",
+            "move": "R",
+            "shift": 12
+        },
+        {
+            "state": "q0",
+            "input": "T",
+            "next_state": "q0",
+            "write": "H",
+            "move": "R",
+            "shift": 12
+        },
+        {
+            "state": "q0",
+            "input": "U",
+            "next_state": "q0",
+            "write": "I",
+            "move": "R",
+            "shift": 12
+        },
+        {
+            "state": "q0",
+            "input": "V",
+            "next_state": "q0",
+            "write": "J",
+            "move": "R",
+            "shift": 12
+        },
+        {
+            "state": "q0",
+            "input": "W",
+            "next_state": "q0",
+            "write": "K",
+            "move": "R",
+            "shift": 12
+        },
+        {
+            "state": "q0",
+            "input": "X",
+            "next_state": "q0",
+            "write": "L",
+            "move": "R",
+            "shift": 12
+        },
+        {
+            "state": "q0",
+            "input": "Y",
+            "next_state": "q0",
+            "write": "M",
+            "move": "R",
+            "shift": 12
+        },
+        {
+            "state": "q0",
+            "input": "Z",
+            "next_state": "q0",
+            "write": "N",
+            "move": "R",
+            "shift": 12
+        },
+        {
+            "state": "q0",
+            "input": " ",
+            "next_state": "q0",
+            "write": " ",
+            "move": "R",
+            "shift": 12
+        },
+        {
+            "state": "q0",
+            "input": "A",
+            "next_state": "q0",
+            "write": "N",
+            "move": "R",
+            "shift": 13
+        },
+        {
+            "state": "q0",
+            "input": "B",
+            "next_state": "q0",
+            "write": "O",
+            "move": "R",
+            "shift": 13
+        },
+        {
+            "state": "q0",
+            "input": "C",
+            "next_state": "q0",
+            "write": "P",
+            "move": "R",
+            "shift": 13
+        },
+        {
+            "state": "q0",
+            "input": "D",
+            "next_state": "q0",
+            "write": "Q",
+            "move": "R",
+            "shift": 13
+        },
+        {
+            "state": "q0",
+            "input": "E",
+            "next_state": "q0",
+            "write": "R",
+            "move": "R",
+            "shift": 13
+        },
+        {
+            "state": "q0",
+            "input": "F",
+            "next_state": "q0",
+            "write": "S",
+            "move": "R",
+            "shift": 13
+        },
+        {
+            "state": "q0",
+            "input": "G",
+            "next_state": "q0",
+            "write": "T",
+            "move": "R",
+            "shift": 13
+        },
+        {
+            "state": "q0",
+            "input": "H",
+            "next_state": "q0",
+            "write": "U",
+            "move": "R",
+            "shift": 13
+        },
+        {
+            "state": "q0",
+            "input": "I",
+            "next_state": "q0",
+            "write": "V",
+            "move": "R",
+            "shift": 13
+        },
+        {
+            "state": "q0",
+            "input": "J",
+            "next_state": "q0",
+            "write": "W",
+            "move": "R",
+            "shift": 13
+        },
+        {
+            "state": "q0",
+            "input": "K",
+            "next_state": "q0",
+            "write": "X",
+            "move": "R",
+            "shift": 13
+        },
+        {
+            "state": "q0",
+            "input": "L",
+            "next_state": "q0",
+            "write": "Y",
+            "move": "R",
+            "shift": 13
+        },
+        {
+            "state": "q0",
+            "input": "M",
+            "next_state": "q0",
+            "write": "Z",
+            "move": "R",
+            "shift": 13
+        },
+        {
+            "state": "q0",
+            "input": "N",
+            "next_state": "q0",
+            "write": "A",
+            "move": "R",
+            "shift": 13
+        },
+        {
+            "state": "q0",
+            "input": "O",
+            "next_state": "q0",
+            "write": "B",
+            "move": "R",
+            "shift": 13
+        },
+        {
+            "state": "q0",
+            "input": "P",
+            "next_state": "q0",
+            "write": "C",
+            "move": "R",
+            "shift": 13
+        },
+        {
+            "state": "q0",
+            "input": "Q",
+            "next_state": "q0",
+            "write": "D",
+            "move": "R",
+            "shift": 13
+        },
+        {
+            "state": "q0",
+            "input": "R",
+            "next_state": "q0",
+            "write": "E",
+            "move": "R",
+            "shift": 13
+        },
+        {
+            "state": "q0",
+            "input": "S",
+            "next_state": "q0",
+            "write": "F",
+            "move": "R",
+            "shift": 13
+        },
+        {
+            "state": "q0",
+            "input": "T",
+            "next_state": "q0",
+            "write": "G",
+            "move": "R",
+            "shift": 13
+        },
+        {
+            "state": "q0",
+            "input": "U",
+            "next_state": "q0",
+            "write": "H",
+            "move": "R",
+            "shift": 13
+        },
+        {
+            "state": "q0",
+            "input": "V",
+            "next_state": "q0",
+            "write": "I",
+            "move": "R",
+            "shift": 13
+        },
+        {
+            "state": "q0",
+            "input": "W",
+            "next_state": "q0",
+            "write": "J",
+            "move": "R",
+            "shift": 13
+        },
+        {
+            "state": "q0",
+            "input": "X",
+            "next_state": "q0",
+            "write": "K",
+            "move": "R",
+            "shift": 13
+        },
+        {
+            "state": "q0",
+            "input": "Y",
+            "next_state": "q0",
+            "write": "L",
+            "move": "R",
+            "shift": 13
+        },
+        {
+            "state": "q0",
+            "input": "Z",
+            "next_state": "q0",
+            "write": "M",
+            "move": "R",
+            "shift": 13
+        },
+        {
+            "state": "q0",
+            "input": " ",
+            "next_state": "q0",
+            "write": " ",
+            "move": "R",
+            "shift": 13
+        },
+        {
+            "state": "q0",
+            "input": "A",
+            "next_state": "q0",
+            "write": "M",
+            "move": "R",
+            "shift": 14
+        },
+        {
+            "state": "q0",
+            "input": "B",
+            "next_state": "q0",
+            "write": "N",
+            "move": "R",
+            "shift": 14
+        },
+        {
+            "state": "q0",
+            "input": "C",
+            "next_state": "q0",
+            "write": "O",
+            "move": "R",
+            "shift": 14
+        },
+        {
+            "state": "q0",
+            "input": "D",
+            "next_state": "q0",
+            "write": "P",
+            "move": "R",
+            "shift": 14
+        },
+        {
+            "state": "q0",
+            "input": "E",
+            "next_state": "q0",
+            "write": "Q",
+            "move": "R",
+            "shift": 14
+        },
+        {
+            "state": "q0",
+            "input": "F",
+            "next_state": "q0",
+            "write": "R",
+            "move": "R",
+            "shift": 14
+        },
+        {
+            "state": "q0",
+            "input": "G",
+            "next_state": "q0",
+            "write": "S",
+            "move": "R",
+            "shift": 14
+        },
+        {
+            "state": "q0",
+            "input": "H",
+            "next_state": "q0",
+            "write": "T",
+            "move": "R",
+            "shift": 14
+        },
+        {
+            "state": "q0",
+            "input": "I",
+            "next_state": "q0",
+            "write": "U",
+            "move": "R",
+            "shift": 14
+        },
+        {
+            "state": "q0",
+            "input": "J",
+            "next_state": "q0",
+            "write": "V",
+            "move": "R",
+            "shift": 14
+        },
+        {
+            "state": "q0",
+            "input": "K",
+            "next_state": "q0",
+            "write": "W",
+            "move": "R",
+            "shift": 14
+        },
+        {
+            "state": "q0",
+            "input": "L",
+            "next_state": "q0",
+            "write": "X",
+            "move": "R",
+            "shift": 14
+        },
+        {
+            "state": "q0",
+            "input": "M",
+            "next_state": "q0",
+            "write": "Y",
+            "move": "R",
+            "shift": 14
+        },
+        {
+            "state": "q0",
+            "input": "N",
+            "next_state": "q0",
+            "write": "Z",
+            "move": "R",
+            "shift": 14
+        },
+        {
+            "state": "q0",
+            "input": "O",
+            "next_state": "q0",
+            "write": "A",
+            "move": "R",
+            "shift": 14
+        },
+        {
+            "state": "q0",
+            "input": "P",
+            "next_state": "q0",
+            "write": "B",
+            "move": "R",
+            "shift": 14
+        },
+        {
+            "state": "q0",
+            "input": "Q",
+            "next_state": "q0",
+            "write": "C",
+            "move": "R",
+            "shift": 14
+        },
+        {
+            "state": "q0",
+            "input": "R",
+            "next_state": "q0",
+            "write": "D",
+            "move": "R",
+            "shift": 14
+        },
+        {
+            "state": "q0",
+            "input": "S",
+            "next_state": "q0",
+            "write": "E",
+            "move": "R",
+            "shift": 14
+        },
+        {
+            "state": "q0",
+            "input": "T",
+            "next_state": "q0",
+            "write": "F",
+            "move": "R",
+            "shift": 14
+        },
+        {
+            "state": "q0",
+            "input": "U",
+            "next_state": "q0",
+            "write": "G",
+            "move": "R",
+            "shift": 14
+        },
+        {
+            "state": "q0",
+            "input": "V",
+            "next_state": "q0",
+            "write": "H",
+            "move": "R",
+            "shift": 14
+        },
+        {
+            "state": "q0",
+            "input": "W",
+            "next_state": "q0",
+            "write": "I",
+            "move": "R",
+            "shift": 14
+        },
+        {
+            "state": "q0",
+            "input": "X",
+            "next_state": "q0",
+            "write": "J",
+            "move": "R",
+            "shift": 14
+        },
+        {
+            "state": "q0",
+            "input": "Y",
+            "next_state": "q0",
+            "write": "K",
+            "move": "R",
+            "shift": 14
+        },
+        {
+            "state": "q0",
+            "input": "Z",
+            "next_state": "q0",
+            "write": "L",
+            "move": "R",
+            "shift": 14
+        },
+        {
+            "state": "q0",
+            "input": " ",
+            "next_state": "q0",
+            "write": " ",
+            "move": "R",
+            "shift": 14
+        },
+        {
+            "state": "q0",
+            "input": "A",
+            "next_state": "q0",
+            "write": "L",
+            "move": "R",
+            "shift": 15
+        },
+        {
+            "state": "q0",
+            "input": "B",
+            "next_state": "q0",
+            "write": "M",
+            "move": "R",
+            "shift": 15
+        },
+        {
+            "state": "q0",
+            "input": "C",
+            "next_state": "q0",
+            "write": "N",
+            "move": "R",
+            "shift": 15
+        },
+        {
+            "state": "q0",
+            "input": "D",
+            "next_state": "q0",
+            "write": "O",
+            "move": "R",
+            "shift": 15
+        },
+        {
+            "state": "q0",
+            "input": "E",
+            "next_state": "q0",
+            "write": "P",
+            "move": "R",
+            "shift": 15
+        },
+        {
+            "state": "q0",
+            "input": "F",
+            "next_state": "q0",
+            "write": "Q",
+            "move": "R",
+            "shift": 15
+        },
+        {
+            "state": "q0",
+            "input": "G",
+            "next_state": "q0",
+            "write": "R",
+            "move": "R",
+            "shift": 15
+        },
+        {
+            "state": "q0",
+            "input": "H",
+            "next_state": "q0",
+            "write": "S",
+            "move": "R",
+            "shift": 15
+        },
+        {
+            "state": "q0",
+            "input": "I",
+            "next_state": "q0",
+            "write": "T",
+            "move": "R",
+            "shift": 15
+        },
+        {
+            "state": "q0",
+            "input": "J",
+            "next_state": "q0",
+            "write": "U",
+            "move": "R",
+            "shift": 15
+        },
+        {
+            "state": "q0",
+            "input": "K",
+            "next_state": "q0",
+            "write": "V",
+            "move": "R",
+            "shift": 15
+        },
+        {
+            "state": "q0",
+            "input": "L",
+            "next_state": "q0",
+            "write": "W",
+            "move": "R",
+            "shift": 15
+        },
+        {
+            "state": "q0",
+            "input": "M",
+            "next_state": "q0",
+            "write": "X",
+            "move": "R",
+            "shift": 15
+        },
+        {
+            "state": "q0",
+            "input": "N",
+            "next_state": "q0",
+            "write": "Y",
+            "move": "R",
+            "shift": 15
+        },
+        {
+            "state": "q0",
+            "input": "O",
+            "next_state": "q0",
+            "write": "Z",
+            "move": "R",
+            "shift": 15
+        },
+        {
+            "state": "q0",
+            "input": "P",
+            "next_state": "q0",
+            "write": "A",
+            "move": "R",
+            "shift": 15
+        },
+        {
+            "state": "q0",
+            "input": "Q",
+            "next_state": "q0",
+            "write": "B",
+            "move": "R",
+            "shift": 15
+        },
+        {
+            "state": "q0",
+            "input": "R",
+            "next_state": "q0",
+            "write": "C",
+            "move": "R",
+            "shift": 15
+        },
+        {
+            "state": "q0",
+            "input": "S",
+            "next_state": "q0",
+            "write": "D",
+            "move": "R",
+            "shift": 15
+        },
+        {
+            "state": "q0",
+            "input": "T",
+            "next_state": "q0",
+            "write": "E",
+            "move": "R",
+            "shift": 15
+        },
+        {
+            "state": "q0",
+            "input": "U",
+            "next_state": "q0",
+            "write": "F",
+            "move": "R",
+            "shift": 15
+        },
+        {
+            "state": "q0",
+            "input": "V",
+            "next_state": "q0",
+            "write": "G",
+            "move": "R",
+            "shift": 15
+        },
+        {
+            "state": "q0",
+            "input": "W",
+            "next_state": "q0",
+            "write": "H",
+            "move": "R",
+            "shift": 15
+        },
+        {
+            "state": "q0",
+            "input": "X",
+            "next_state": "q0",
+            "write": "I",
+            "move": "R",
+            "shift": 15
+        },
+        {
+            "state": "q0",
+            "input": "Y",
+            "next_state": "q0",
+            "write": "J",
+            "move": "R",
+            "shift": 15
+        },
+        {
+            "state": "q0",
+            "input": "Z",
+            "next_state": "q0",
+            "write": "K",
+            "move": "R",
+            "shift": 15
+        },
+        {
+            "state": "q0",
+            "input": " ",
+            "next_state": "q0",
+            "write": " ",
+            "move": "R",
+            "shift": 15
+        },
+        {
+            "state": "q0",
+            "input": "A",
+            "next_state": "q0",
+            "write": "K",
+            "move": "R",
+            "shift": 16
+        },
+        {
+            "state": "q0",
+            "input": "B",
+            "next_state": "q0",
+            "write": "L",
+            "move": "R",
+            "shift": 16
+        },
+        {
+            "state": "q0",
+            "input": "C",
+            "next_state": "q0",
+            "write": "M",
+            "move": "R",
+            "shift": 16
+        },
+        {
+            "state": "q0",
+            "input": "D",
+            "next_state": "q0",
+            "write": "N",
+            "move": "R",
+            "shift": 16
+        },
+        {
+            "state": "q0",
+            "input": "E",
+            "next_state": "q0",
+            "write": "O",
+            "move": "R",
+            "shift": 16
+        },
+        {
+            "state": "q0",
+            "input": "F",
+            "next_state": "q0",
+            "write": "P",
+            "move": "R",
+            "shift": 16
+        },
+        {
+            "state": "q0",
+            "input": "G",
+            "next_state": "q0",
+            "write": "Q",
+            "move": "R",
+            "shift": 16
+        },
+        {
+            "state": "q0",
+            "input": "H",
+            "next_state": "q0",
+            "write": "R",
+            "move": "R",
+            "shift": 16
+        },
+        {
+            "state": "q0",
+            "input": "I",
+            "next_state": "q0",
+            "write": "S",
+            "move": "R",
+            "shift": 16
+        },
+        {
+            "state": "q0",
+            "input": "J",
+            "next_state": "q0",
+            "write": "T",
+            "move": "R",
+            "shift": 16
+        },
+        {
+            "state": "q0",
+            "input": "K",
+            "next_state": "q0",
+            "write": "U",
+            "move": "R",
+            "shift": 16
+        },
+        {
+            "state": "q0",
+            "input": "L",
+            "next_state": "q0",
+            "write": "V",
+            "move": "R",
+            "shift": 16
+        },
+        {
+            "state": "q0",
+            "input": "M",
+            "next_state": "q0",
+            "write": "W",
+            "move": "R",
+            "shift": 16
+        },
+        {
+            "state": "q0",
+            "input": "N",
+            "next_state": "q0",
+            "write": "X",
+            "move": "R",
+            "shift": 16
+        },
+        {
+            "state": "q0",
+            "input": "O",
+            "next_state": "q0",
+            "write": "Y",
+            "move": "R",
+            "shift": 16
+        },
+        {
+            "state": "q0",
+            "input": "P",
+            "next_state": "q0",
+            "write": "Z",
+            "move": "R",
+            "shift": 16
+        },
+        {
+            "state": "q0",
+            "input": "Q",
+            "next_state": "q0",
+            "write": "A",
+            "move": "R",
+            "shift": 16
+        },
+        {
+            "state": "q0",
+            "input": "R",
+            "next_state": "q0",
+            "write": "B",
+            "move": "R",
+            "shift": 16
+        },
+        {
+            "state": "q0",
+            "input": "S",
+            "next_state": "q0",
+            "write": "C",
+            "move": "R",
+            "shift": 16
+        },
+        {
+            "state": "q0",
+            "input": "T",
+            "next_state": "q0",
+            "write": "D",
+            "move": "R",
+            "shift": 16
+        },
+        {
+            "state": "q0",
+            "input": "U",
+            "next_state": "q0",
+            "write": "E",
+            "move": "R",
+            "shift": 16
+        },
+        {
+            "state": "q0",
+            "input": "V",
+            "next_state": "q0",
+            "write": "F",
+            "move": "R",
+            "shift": 16
+        },
+        {
+            "state": "q0",
+            "input": "W",
+            "next_state": "q0",
+            "write": "G",
+            "move": "R",
+            "shift": 16
+        },
+        {
+            "state": "q0",
+            "input": "X",
+            "next_state": "q0",
+            "write": "H",
+            "move": "R",
+            "shift": 16
+        },
+        {
+            "state": "q0",
+            "input": "Y",
+            "next_state": "q0",
+            "write": "I",
+            "move": "R",
+            "shift": 16
+        },
+        {
+            "state": "q0",
+            "input": "Z",
+            "next_state": "q0",
+            "write": "J",
+            "move": "R",
+            "shift": 16
+        },
+        {
+            "state": "q0",
+            "input": " ",
+            "next_state": "q0",
+            "write": " ",
+            "move": "R",
+            "shift": 16
+        },
+        {
+            "state": "q0",
+            "input": "A",
+            "next_state": "q0",
+            "write": "J",
+            "move": "R",
+            "shift": 17
+        },
+        {
+            "state": "q0",
+            "input": "B",
+            "next_state": "q0",
+            "write": "K",
+            "move": "R",
+            "shift": 17
+        },
+        {
+            "state": "q0",
+            "input": "C",
+            "next_state": "q0",
+            "write": "L",
+            "move": "R",
+            "shift": 17
+        },
+        {
+            "state": "q0",
+            "input": "D",
+            "next_state": "q0",
+            "write": "M",
+            "move": "R",
+            "shift": 17
+        },
+        {
+            "state": "q0",
+            "input": "E",
+            "next_state": "q0",
+            "write": "N",
+            "move": "R",
+            "shift": 17
+        },
+        {
+            "state": "q0",
+            "input": "F",
+            "next_state": "q0",
+            "write": "O",
+            "move": "R",
+            "shift": 17
+        },
+        {
+            "state": "q0",
+            "input": "G",
+            "next_state": "q0",
+            "write": "P",
+            "move": "R",
+            "shift": 17
+        },
+        {
+            "state": "q0",
+            "input": "H",
+            "next_state": "q0",
+            "write": "Q",
+            "move": "R",
+            "shift": 17
+        },
+        {
+            "state": "q0",
+            "input": "I",
+            "next_state": "q0",
+            "write": "R",
+            "move": "R",
+            "shift": 17
+        },
+        {
+            "state": "q0",
+            "input": "J",
+            "next_state": "q0",
+            "write": "S",
+            "move": "R",
+            "shift": 17
+        },
+        {
+            "state": "q0",
+            "input": "K",
+            "next_state": "q0",
+            "write": "T",
+            "move": "R",
+            "shift": 17
+        },
+        {
+            "state": "q0",
+            "input": "L",
+            "next_state": "q0",
+            "write": "U",
+            "move": "R",
+            "shift": 17
+        },
+        {
+            "state": "q0",
+            "input": "M",
+            "next_state": "q0",
+            "write": "V",
+            "move": "R",
+            "shift": 17
+        },
+        {
+            "state": "q0",
+            "input": "N",
+            "next_state": "q0",
+            "write": "W",
+            "move": "R",
+            "shift": 17
+        },
+        {
+            "state": "q0",
+            "input": "O",
+            "next_state": "q0",
+            "write": "X",
+            "move": "R",
+            "shift": 17
+        },
+        {
+            "state": "q0",
+            "input": "P",
+            "next_state": "q0",
+            "write": "Y",
+            "move": "R",
+            "shift": 17
+        },
+        {
+            "state": "q0",
+            "input": "Q",
+            "next_state": "q0",
+            "write": "Z",
+            "move": "R",
+            "shift": 17
+        },
+        {
+            "state": "q0",
+            "input": "R",
+            "next_state": "q0",
+            "write": "A",
+            "move": "R",
+            "shift": 17
+        },
+        {
+            "state": "q0",
+            "input": "S",
+            "next_state": "q0",
+            "write": "B",
+            "move": "R",
+            "shift": 17
+        },
+        {
+            "state": "q0",
+            "input": "T",
+            "next_state": "q0",
+            "write": "C",
+            "move": "R",
+            "shift": 17
+        },
+        {
+            "state": "q0",
+            "input": "U",
+            "next_state": "q0",
+            "write": "D",
+            "move": "R",
+            "shift": 17
+        },
+        {
+            "state": "q0",
+            "input": "V",
+            "next_state": "q0",
+            "write": "E",
+            "move": "R",
+            "shift": 17
+        },
+        {
+            "state": "q0",
+            "input": "W",
+            "next_state": "q0",
+            "write": "F",
+            "move": "R",
+            "shift": 17
+        },
+        {
+            "state": "q0",
+            "input": "X",
+            "next_state": "q0",
+            "write": "G",
+            "move": "R",
+            "shift": 17
+        },
+        {
+            "state": "q0",
+            "input": "Y",
+            "next_state": "q0",
+            "write": "H",
+            "move": "R",
+            "shift": 17
+        },
+        {
+            "state": "q0",
+            "input": "Z",
+            "next_state": "q0",
+            "write": "I",
+            "move": "R",
+            "shift": 17
+        },
+        {
+            "state": "q0",
+            "input": " ",
+            "next_state": "q0",
+            "write": " ",
+            "move": "R",
+            "shift": 17
+        },
+        {
+            "state": "q0",
+            "input": "A",
+            "next_state": "q0",
+            "write": "I",
+            "move": "R",
+            "shift": 18
+        },
+        {
+            "state": "q0",
+            "input": "B",
+            "next_state": "q0",
+            "write": "J",
+            "move": "R",
+            "shift": 18
+        },
+        {
+            "state": "q0",
+            "input": "C",
+            "next_state": "q0",
+            "write": "K",
+            "move": "R",
+            "shift": 18
+        },
+        {
+            "state": "q0",
+            "input": "D",
+            "next_state": "q0",
+            "write": "L",
+            "move": "R",
+            "shift": 18
+        },
+        {
+            "state": "q0",
+            "input": "E",
+            "next_state": "q0",
+            "write": "M",
+            "move": "R",
+            "shift": 18
+        },
+        {
+            "state": "q0",
+            "input": "F",
+            "next_state": "q0",
+            "write": "N",
+            "move": "R",
+            "shift": 18
+        },
+        {
+            "state": "q0",
+            "input": "G",
+            "next_state": "q0",
+            "write": "O",
+            "move": "R",
+            "shift": 18
+        },
+        {
+            "state": "q0",
+            "input": "H",
+            "next_state": "q0",
+            "write": "P",
+            "move": "R",
+            "shift": 18
+        },
+        {
+            "state": "q0",
+            "input": "I",
+            "next_state": "q0",
+            "write": "Q",
+            "move": "R",
+            "shift": 18
+        },
+        {
+            "state": "q0",
+            "input": "J",
+            "next_state": "q0",
+            "write": "R",
+            "move": "R",
+            "shift": 18
+        },
+        {
+            "state": "q0",
+            "input": "K",
+            "next_state": "q0",
+            "write": "S",
+            "move": "R",
+            "shift": 18
+        },
+        {
+            "state": "q0",
+            "input": "L",
+            "next_state": "q0",
+            "write": "T",
+            "move": "R",
+            "shift": 18
+        },
+        {
+            "state": "q0",
+            "input": "M",
+            "next_state": "q0",
+            "write": "U",
+            "move": "R",
+            "shift": 18
+        },
+        {
+            "state": "q0",
+            "input": "N",
+            "next_state": "q0",
+            "write": "V",
+            "move": "R",
+            "shift": 18
+        },
+        {
+            "state": "q0",
+            "input": "O",
+            "next_state": "q0",
+            "write": "W",
+            "move": "R",
+            "shift": 18
+        },
+        {
+            "state": "q0",
+            "input": "P",
+            "next_state": "q0",
+            "write": "X",
+            "move": "R",
+            "shift": 18
+        },
+        {
+            "state": "q0",
+            "input": "Q",
+            "next_state": "q0",
+            "write": "Y",
+            "move": "R",
+            "shift": 18
+        },
+        {
+            "state": "q0",
+            "input": "R",
+            "next_state": "q0",
+            "write": "Z",
+            "move": "R",
+            "shift": 18
+        },
+        {
+            "state": "q0",
+            "input": "S",
+            "next_state": "q0",
+            "write": "A",
+            "move": "R",
+            "shift": 18
+        },
+        {
+            "state": "q0",
+            "input": "T",
+            "next_state": "q0",
+            "write": "B",
+            "move": "R",
+            "shift": 18
+        },
+        {
+            "state": "q0",
+            "input": "U",
+            "next_state": "q0",
+            "write": "C",
+            "move": "R",
+            "shift": 18
+        },
+        {
+            "state": "q0",
+            "input": "V",
+            "next_state": "q0",
+            "write": "D",
+            "move": "R",
+            "shift": 18
+        },
+        {
+            "state": "q0",
+            "input": "W",
+            "next_state": "q0",
+            "write": "E",
+            "move": "R",
+            "shift": 18
+        },
+        {
+            "state": "q0",
+            "input": "X",
+            "next_state": "q0",
+            "write": "F",
+            "move": "R",
+            "shift": 18
+        },
+        {
+            "state": "q0",
+            "input": "Y",
+            "next_state": "q0",
+            "write": "G",
+            "move": "R",
+            "shift": 18
+        },
+        {
+            "state": "q0",
+            "input": "Z",
+            "next_state": "q0",
+            "write": "H",
+            "move": "R",
+            "shift": 18
+        },
+        {
+            "state": "q0",
+            "input": " ",
+            "next_state": "q0",
+            "write": " ",
+            "move": "R",
+            "shift": 18
+        },
+        {
+            "state": "q0",
+            "input": "A",
+            "next_state": "q0",
+            "write": "H",
+            "move": "R",
+            "shift": 19
+        },
+        {
+            "state": "q0",
+            "input": "B",
+            "next_state": "q0",
+            "write": "I",
+            "move": "R",
+            "shift": 19
+        },
+        {
+            "state": "q0",
+            "input": "C",
+            "next_state": "q0",
+            "write": "J",
+            "move": "R",
+            "shift": 19
+        },
+        {
+            "state": "q0",
+            "input": "D",
+            "next_state": "q0",
+            "write": "K",
+            "move": "R",
+            "shift": 19
+        },
+        {
+            "state": "q0",
+            "input": "E",
+            "next_state": "q0",
+            "write": "L",
+            "move": "R",
+            "shift": 19
+        },
+        {
+            "state": "q0",
+            "input": "F",
+            "next_state": "q0",
+            "write": "M",
+            "move": "R",
+            "shift": 19
+        },
+        {
+            "state": "q0",
+            "input": "G",
+            "next_state": "q0",
+            "write": "N",
+            "move": "R",
+            "shift": 19
+        },
+        {
+            "state": "q0",
+            "input": "H",
+            "next_state": "q0",
+            "write": "O",
+            "move": "R",
+            "shift": 19
+        },
+        {
+            "state": "q0",
+            "input": "I",
+            "next_state": "q0",
+            "write": "P",
+            "move": "R",
+            "shift": 19
+        },
+        {
+            "state": "q0",
+            "input": "J",
+            "next_state": "q0",
+            "write": "Q",
+            "move": "R",
+            "shift": 19
+        },
+        {
+            "state": "q0",
+            "input": "K",
+            "next_state": "q0",
+            "write": "R",
+            "move": "R",
+            "shift": 19
+        },
+        {
+            "state": "q0",
+            "input": "L",
+            "next_state": "q0",
+            "write": "S",
+            "move": "R",
+            "shift": 19
+        },
+        {
+            "state": "q0",
+            "input": "M",
+            "next_state": "q0",
+            "write": "T",
+            "move": "R",
+            "shift": 19
+        },
+        {
+            "state": "q0",
+            "input": "N",
+            "next_state": "q0",
+            "write": "U",
+            "move": "R",
+            "shift": 19
+        },
+        {
+            "state": "q0",
+            "input": "O",
+            "next_state": "q0",
+            "write": "V",
+            "move": "R",
+            "shift": 19
+        },
+        {
+            "state": "q0",
+            "input": "P",
+            "next_state": "q0",
+            "write": "W",
+            "move": "R",
+            "shift": 19
+        },
+        {
+            "state": "q0",
+            "input": "Q",
+            "next_state": "q0",
+            "write": "X",
+            "move": "R",
+            "shift": 19
+        },
+        {
+            "state": "q0",
+            "input": "R",
+            "next_state": "q0",
+            "write": "Y",
+            "move": "R",
+            "shift": 19
+        },
+        {
+            "state": "q0",
+            "input": "S",
+            "next_state": "q0",
+            "write": "Z",
+            "move": "R",
+            "shift": 19
+        },
+        {
+            "state": "q0",
+            "input": "T",
+            "next_state": "q0",
+            "write": "A",
+            "move": "R",
+            "shift": 19
+        },
+        {
+            "state": "q0",
+            "input": "U",
+            "next_state": "q0",
+            "write": "B",
+            "move": "R",
+            "shift": 19
+        },
+        {
+            "state": "q0",
+            "input": "V",
+            "next_state": "q0",
+            "write": "C",
+            "move": "R",
+            "shift": 19
+        },
+        {
+            "state": "q0",
+            "input": "W",
+            "next_state": "q0",
+            "write": "D",
+            "move": "R",
+            "shift": 19
+        },
+        {
+            "state": "q0",
+            "input": "X",
+            "next_state": "q0",
+            "write": "E",
+            "move": "R",
+            "shift": 19
+        },
+        {
+            "state": "q0",
+            "input": "Y",
+            "next_state": "q0",
+            "write": "F",
+            "move": "R",
+            "shift": 19
+        },
+        {
+            "state": "q0",
+            "input": "Z",
+            "next_state": "q0",
+            "write": "G",
+            "move": "R",
+            "shift": 19
+        },
+        {
+            "state": "q0",
+            "input": " ",
+            "next_state": "q0",
+            "write": " ",
+            "move": "R",
+            "shift": 19
+        },
+        {
+            "state": "q0",
+            "input": "A",
+            "next_state": "q0",
+            "write": "G",
+            "move": "R",
+            "shift": 20
+        },
+        {
+            "state": "q0",
+            "input": "B",
+            "next_state": "q0",
+            "write": "H",
+            "move": "R",
+            "shift": 20
+        },
+        {
+            "state": "q0",
+            "input": "C",
+            "next_state": "q0",
+            "write": "I",
+            "move": "R",
+            "shift": 20
+        },
+        {
+            "state": "q0",
+            "input": "D",
+            "next_state": "q0",
+            "write": "J",
+            "move": "R",
+            "shift": 20
+        },
+        {
+            "state": "q0",
+            "input": "E",
+            "next_state": "q0",
+            "write": "K",
+            "move": "R",
+            "shift": 20
+        },
+        {
+            "state": "q0",
+            "input": "F",
+            "next_state": "q0",
+            "write": "L",
+            "move": "R",
+            "shift": 20
+        },
+        {
+            "state": "q0",
+            "input": "G",
+            "next_state": "q0",
+            "write": "M",
+            "move": "R",
+            "shift": 20
+        },
+        {
+            "state": "q0",
+            "input": "H",
+            "next_state": "q0",
+            "write": "N",
+            "move": "R",
+            "shift": 20
+        },
+        {
+            "state": "q0",
+            "input": "I",
+            "next_state": "q0",
+            "write": "O",
+            "move": "R",
+            "shift": 20
+        },
+        {
+            "state": "q0",
+            "input": "J",
+            "next_state": "q0",
+            "write": "P",
+            "move": "R",
+            "shift": 20
+        },
+        {
+            "state": "q0",
+            "input": "K",
+            "next_state": "q0",
+            "write": "Q",
+            "move": "R",
+            "shift": 20
+        },
+        {
+            "state": "q0",
+            "input": "L",
+            "next_state": "q0",
+            "write": "R",
+            "move": "R",
+            "shift": 20
+        },
+        {
+            "state": "q0",
+            "input": "M",
+            "next_state": "q0",
+            "write": "S",
+            "move": "R",
+            "shift": 20
+        },
+        {
+            "state": "q0",
+            "input": "N",
+            "next_state": "q0",
+            "write": "T",
+            "move": "R",
+            "shift": 20
+        },
+        {
+            "state": "q0",
+            "input": "O",
+            "next_state": "q0",
+            "write": "U",
+            "move": "R",
+            "shift": 20
+        },
+        {
+            "state": "q0",
+            "input": "P",
+            "next_state": "q0",
+            "write": "V",
+            "move": "R",
+            "shift": 20
+        },
+        {
+            "state": "q0",
+            "input": "Q",
+            "next_state": "q0",
+            "write": "W",
+            "move": "R",
+            "shift": 20
+        },
+        {
+            "state": "q0",
+            "input": "R",
+            "next_state": "q0",
+            "write": "X",
+            "move": "R",
+            "shift": 20
+        },
+        {
+            "state": "q0",
+            "input": "S",
+            "next_state": "q0",
+            "write": "Y",
+            "move": "R",
+            "shift": 20
+        },
+        {
+            "state": "q0",
+            "input": "T",
+            "next_state": "q0",
+            "write": "Z",
+            "move": "R",
+            "shift": 20
+        },
+        {
+            "state": "q0",
+            "input": "U",
+            "next_state": "q0",
+            "write": "A",
+            "move": "R",
+            "shift": 20
+        },
+        {
+            "state": "q0",
+            "input": "V",
+            "next_state": "q0",
+            "write": "B",
+            "move": "R",
+            "shift": 20
+        },
+        {
+            "state": "q0",
+            "input": "W",
+            "next_state": "q0",
+            "write": "C",
+            "move": "R",
+            "shift": 20
+        },
+        {
+            "state": "q0",
+            "input": "X",
+            "next_state": "q0",
+            "write": "D",
+            "move": "R",
+            "shift": 20
+        },
+        {
+            "state": "q0",
+            "input": "Y",
+            "next_state": "q0",
+            "write": "E",
+            "move": "R",
+            "shift": 20
+        },
+        {
+            "state": "q0",
+            "input": "Z",
+            "next_state": "q0",
+            "write": "F",
+            "move": "R",
+            "shift": 20
+        },
+        {
+            "state": "q0",
+            "input": " ",
+            "next_state": "q0",
+            "write": " ",
+            "move": "R",
+            "shift": 20
+        },
+        {
+            "state": "q0",
+            "input": "A",
+            "next_state": "q0",
+            "write": "F",
+            "move": "R",
+            "shift": 21
+        },
+        {
+            "state": "q0",
+            "input": "B",
+            "next_state": "q0",
+            "write": "G",
+            "move": "R",
+            "shift": 21
+        },
+        {
+            "state": "q0",
+            "input": "C",
+            "next_state": "q0",
+            "write": "H",
+            "move": "R",
+            "shift": 21
+        },
+        {
+            "state": "q0",
+            "input": "D",
+            "next_state": "q0",
+            "write": "I",
+            "move": "R",
+            "shift": 21
+        },
+        {
+            "state": "q0",
+            "input": "E",
+            "next_state": "q0",
+            "write": "J",
+            "move": "R",
+            "shift": 21
+        },
+        {
+            "state": "q0",
+            "input": "F",
+            "next_state": "q0",
+            "write": "K",
+            "move": "R",
+            "shift": 21
+        },
+        {
+            "state": "q0",
+            "input": "G",
+            "next_state": "q0",
+            "write": "L",
+            "move": "R",
+            "shift": 21
+        },
+        {
+            "state": "q0",
+            "input": "H",
+            "next_state": "q0",
+            "write": "M",
+            "move": "R",
+            "shift": 21
+        },
+        {
+            "state": "q0",
+            "input": "I",
+            "next_state": "q0",
+            "write": "N",
+            "move": "R",
+            "shift": 21
+        },
+        {
+            "state": "q0",
+            "input": "J",
+            "next_state": "q0",
+            "write": "O",
+            "move": "R",
+            "shift": 21
+        },
+        {
+            "state": "q0",
+            "input": "K",
+            "next_state": "q0",
+            "write": "P",
+            "move": "R",
+            "shift": 21
+        },
+        {
+            "state": "q0",
+            "input": "L",
+            "next_state": "q0",
+            "write": "Q",
+            "move": "R",
+            "shift": 21
+        },
+        {
+            "state": "q0",
+            "input": "M",
+            "next_state": "q0",
+            "write": "R",
+            "move": "R",
+            "shift": 21
+        },
+        {
+            "state": "q0",
+            "input": "N",
+            "next_state": "q0",
+            "write": "S",
+            "move": "R",
+            "shift": 21
+        },
+        {
+            "state": "q0",
+            "input": "O",
+            "next_state": "q0",
+            "write": "T",
+            "move": "R",
+            "shift": 21
+        },
+        {
+            "state": "q0",
+            "input": "P",
+            "next_state": "q0",
+            "write": "U",
+            "move": "R",
+            "shift": 21
+        },
+        {
+            "state": "q0",
+            "input": "Q",
+            "next_state": "q0",
+            "write": "V",
+            "move": "R",
+            "shift": 21
+        },
+        {
+            "state": "q0",
+            "input": "R",
+            "next_state": "q0",
+            "write": "W",
+            "move": "R",
+            "shift": 21
+        },
+        {
+            "state": "q0",
+            "input": "S",
+            "next_state": "q0",
+            "write": "X",
+            "move": "R",
+            "shift": 21
+        },
+        {
+            "state": "q0",
+            "input": "T",
+            "next_state": "q0",
+            "write": "Y",
+            "move": "R",
+            "shift": 21
+        },
+        {
+            "state": "q0",
+            "input": "U",
+            "next_state": "q0",
+            "write": "Z",
+            "move": "R",
+            "shift": 21
+        },
+        {
+            "state": "q0",
+            "input": "V",
+            "next_state": "q0",
+            "write": "A",
+            "move": "R",
+            "shift": 21
+        },
+        {
+            "state": "q0",
+            "input": "W",
+            "next_state": "q0",
+            "write": "B",
+            "move": "R",
+            "shift": 21
+        },
+        {
+            "state": "q0",
+            "input": "X",
+            "next_state": "q0",
+            "write": "C",
+            "move": "R",
+            "shift": 21
+        },
+        {
+            "state": "q0",
+            "input": "Y",
+            "next_state": "q0",
+            "write": "D",
+            "move": "R",
+            "shift": 21
+        },
+        {
+            "state": "q0",
+            "input": "Z",
+            "next_state": "q0",
+            "write": "E",
+            "move": "R",
+            "shift": 21
+        },
+        {
+            "state": "q0",
+            "input": " ",
+            "next_state": "q0",
+            "write": " ",
+            "move": "R",
+            "shift": 21
+        },
+        {
+            "state": "q0",
+            "input": "A",
+            "next_state": "q0",
+            "write": "E",
+            "move": "R",
+            "shift": 22
+        },
+        {
+            "state": "q0",
+            "input": "B",
+            "next_state": "q0",
+            "write": "F",
+            "move": "R",
+            "shift": 22
+        },
+        {
+            "state": "q0",
+            "input": "C",
+            "next_state": "q0",
+            "write": "G",
+            "move": "R",
+            "shift": 22
+        },
+        {
+            "state": "q0",
+            "input": "D",
+            "next_state": "q0",
+            "write": "H",
+            "move": "R",
+            "shift": 22
+        },
+        {
+            "state": "q0",
+            "input": "E",
+            "next_state": "q0",
+            "write": "I",
+            "move": "R",
+            "shift": 22
+        },
+        {
+            "state": "q0",
+            "input": "F",
+            "next_state": "q0",
+            "write": "J",
+            "move": "R",
+            "shift": 22
+        },
+        {
+            "state": "q0",
+            "input": "G",
+            "next_state": "q0",
+            "write": "K",
+            "move": "R",
+            "shift": 22
+        },
+        {
+            "state": "q0",
+            "input": "H",
+            "next_state": "q0",
+            "write": "L",
+            "move": "R",
+            "shift": 22
+        },
+        {
+            "state": "q0",
+            "input": "I",
+            "next_state": "q0",
+            "write": "M",
+            "move": "R",
+            "shift": 22
+        },
+        {
+            "state": "q0",
+            "input": "J",
+            "next_state": "q0",
+            "write": "N",
+            "move": "R",
+            "shift": 22
+        },
+        {
+            "state": "q0",
+            "input": "K",
+            "next_state": "q0",
+            "write": "O",
+            "move": "R",
+            "shift": 22
+        },
+        {
+            "state": "q0",
+            "input": "L",
+            "next_state": "q0",
+            "write": "P",
+            "move": "R",
+            "shift": 22
+        },
+        {
+            "state": "q0",
+            "input": "M",
+            "next_state": "q0",
+            "write": "Q",
+            "move": "R",
+            "shift": 22
+        },
+        {
+            "state": "q0",
+            "input": "N",
+            "next_state": "q0",
+            "write": "R",
+            "move": "R",
+            "shift": 22
+        },
+        {
+            "state": "q0",
+            "input": "O",
+            "next_state": "q0",
+            "write": "S",
+            "move": "R",
+            "shift": 22
+        },
+        {
+            "state": "q0",
+            "input": "P",
+            "next_state": "q0",
+            "write": "T",
+            "move": "R",
+            "shift": 22
+        },
+        {
+            "state": "q0",
+            "input": "Q",
+            "next_state": "q0",
+            "write": "U",
+            "move": "R",
+            "shift": 22
+        },
+        {
+            "state": "q0",
+            "input": "R",
+            "next_state": "q0",
+            "write": "V",
+            "move": "R",
+            "shift": 22
+        },
+        {
+            "state": "q0",
+            "input": "S",
+            "next_state": "q0",
+            "write": "W",
+            "move": "R",
+            "shift": 22
+        },
+        {
+            "state": "q0",
+            "input": "T",
+            "next_state": "q0",
+            "write": "X",
+            "move": "R",
+            "shift": 22
+        },
+        {
+            "state": "q0",
+            "input": "U",
+            "next_state": "q0",
+            "write": "Y",
+            "move": "R",
+            "shift": 22
+        },
+        {
+            "state": "q0",
+            "input": "V",
+            "next_state": "q0",
+            "write": "Z",
+            "move": "R",
+            "shift": 22
+        },
+        {
+            "state": "q0",
+            "input": "W",
+            "next_state": "q0",
+            "write": "A",
+            "move": "R",
+            "shift": 22
+        },
+        {
+            "state": "q0",
+            "input": "X",
+            "next_state": "q0",
+            "write": "B",
+            "move": "R",
+            "shift": 22
+        },
+        {
+            "state": "q0",
+            "input": "Y",
+            "next_state": "q0",
+            "write": "C",
+            "move": "R",
+            "shift": 22
+        },
+        {
+            "state": "q0",
+            "input": "Z",
+            "next_state": "q0",
+            "write": "D",
+            "move": "R",
+            "shift": 22
+        },
+        {
+            "state": "q0",
+            "input": " ",
+            "next_state": "q0",
+            "write": " ",
+            "move": "R",
+            "shift": 22
+        },
+        {
+            "state": "q0",
+            "input": "A",
+            "next_state": "q0",
+            "write": "D",
+            "move": "R",
+            "shift": 23
+        },
+        {
+            "state": "q0",
+            "input": "B",
+            "next_state": "q0",
+            "write": "E",
+            "move": "R",
+            "shift": 23
+        },
+        {
+            "state": "q0",
+            "input": "C",
+            "next_state": "q0",
+            "write": "F",
+            "move": "R",
+            "shift": 23
+        },
+        {
+            "state": "q0",
+            "input": "D",
+            "next_state": "q0",
+            "write": "G",
+            "move": "R",
+            "shift": 23
+        },
+        {
+            "state": "q0",
+            "input": "E",
+            "next_state": "q0",
+            "write": "H",
+            "move": "R",
+            "shift": 23
+        },
+        {
+            "state": "q0",
+            "input": "F",
+            "next_state": "q0",
+            "write": "I",
+            "move": "R",
+            "shift": 23
+        },
+        {
+            "state": "q0",
+            "input": "G",
+            "next_state": "q0",
+            "write": "J",
+            "move": "R",
+            "shift": 23
+        },
+        {
+            "state": "q0",
+            "input": "H",
+            "next_state": "q0",
+            "write": "K",
+            "move": "R",
+            "shift": 23
+        },
+        {
+            "state": "q0",
+            "input": "I",
+            "next_state": "q0",
+            "write": "L",
+            "move": "R",
+            "shift": 23
+        },
+        {
+            "state": "q0",
+            "input": "J",
+            "next_state": "q0",
+            "write": "M",
+            "move": "R",
+            "shift": 23
+        },
+        {
+            "state": "q0",
+            "input": "K",
+            "next_state": "q0",
+            "write": "N",
+            "move": "R",
+            "shift": 23
+        },
+        {
+            "state": "q0",
+            "input": "L",
+            "next_state": "q0",
+            "write": "O",
+            "move": "R",
+            "shift": 23
+        },
+        {
+            "state": "q0",
+            "input": "M",
+            "next_state": "q0",
+            "write": "P",
+            "move": "R",
+            "shift": 23
+        },
+        {
+            "state": "q0",
+            "input": "N",
+            "next_state": "q0",
+            "write": "Q",
+            "move": "R",
+            "shift": 23
+        },
+        {
+            "state": "q0",
+            "input": "O",
+            "next_state": "q0",
+            "write": "R",
+            "move": "R",
+            "shift": 23
+        },
+        {
+            "state": "q0",
+            "input": "P",
+            "next_state": "q0",
+            "write": "S",
+            "move": "R",
+            "shift": 23
+        },
+        {
+            "state": "q0",
+            "input": "Q",
+            "next_state": "q0",
+            "write": "T",
+            "move": "R",
+            "shift": 23
+        },
+        {
+            "state": "q0",
+            "input": "R",
+            "next_state": "q0",
+            "write": "U",
+            "move": "R",
+            "shift": 23
+        },
+        {
+            "state": "q0",
+            "input": "S",
+            "next_state": "q0",
+            "write": "V",
+            "move": "R",
+            "shift": 23
+        },
+        {
+            "state": "q0",
+            "input": "T",
+            "next_state": "q0",
+            "write": "W",
+            "move": "R",
+            "shift": 23
+        },
+        {
+            "state": "q0",
+            "input": "U",
+            "next_state": "q0",
+            "write": "X",
+            "move": "R",
+            "shift": 23
+        },
+        {
+            "state": "q0",
+            "input": "V",
+            "next_state": "q0",
+            "write": "Y",
+            "move": "R",
+            "shift": 23
+        },
+        {
+            "state": "q0",
+            "input": "W",
+            "next_state": "q0",
+            "write": "Z",
+            "move": "R",
+            "shift": 23
+        },
+        {
+            "state": "q0",
+            "input": "X",
+            "next_state": "q0",
+            "write": "A",
+            "move": "R",
+            "shift": 23
+        },
+        {
+            "state": "q0",
+            "input": "Y",
+            "next_state": "q0",
+            "write": "B",
+            "move": "R",
+            "shift": 23
+        },
+        {
+            "state": "q0",
+            "input": "Z",
+            "next_state": "q0",
+            "write": "C",
+            "move": "R",
+            "shift": 23
+        },
+        {
+            "state": "q0",
+            "input": " ",
+            "next_state": "q0",
+            "write": " ",
+            "move": "R",
+            "shift": 23
+        },
+        {
+            "state": "q0",
+            "input": "A",
+            "next_state": "q0",
+            "write": "C",
+            "move": "R",
+            "shift": 24
+        },
+        {
+            "state": "q0",
+            "input": "B",
+            "next_state": "q0",
+            "write": "D",
+            "move": "R",
+            "shift": 24
+        },
+        {
+            "state": "q0",
+            "input": "C",
+            "next_state": "q0",
+            "write": "E",
+            "move": "R",
+            "shift": 24
+        },
+        {
+            "state": "q0",
+            "input": "D",
+            "next_state": "q0",
+            "write": "F",
+            "move": "R",
+            "shift": 24
+        },
+        {
+            "state": "q0",
+            "input": "E",
+            "next_state": "q0",
+            "write": "G",
+            "move": "R",
+            "shift": 24
+        },
+        {
+            "state": "q0",
+            "input": "F",
+            "next_state": "q0",
+            "write": "H",
+            "move": "R",
+            "shift": 24
+        },
+        {
+            "state": "q0",
+            "input": "G",
+            "next_state": "q0",
+            "write": "I",
+            "move": "R",
+            "shift": 24
+        },
+        {
+            "state": "q0",
+            "input": "H",
+            "next_state": "q0",
+            "write": "J",
+            "move": "R",
+            "shift": 24
+        },
+        {
+            "state": "q0",
+            "input": "I",
+            "next_state": "q0",
+            "write": "K",
+            "move": "R",
+            "shift": 24
+        },
+        {
+            "state": "q0",
+            "input": "J",
+            "next_state": "q0",
+            "write": "L",
+            "move": "R",
+            "shift": 24
+        },
+        {
+            "state": "q0",
+            "input": "K",
+            "next_state": "q0",
+            "write": "M",
+            "move": "R",
+            "shift": 24
+        },
+        {
+            "state": "q0",
+            "input": "L",
+            "next_state": "q0",
+            "write": "N",
+            "move": "R",
+            "shift": 24
+        },
+        {
+            "state": "q0",
+            "input": "M",
+            "next_state": "q0",
+            "write": "O",
+            "move": "R",
+            "shift": 24
+        },
+        {
+            "state": "q0",
+            "input": "N",
+            "next_state": "q0",
+            "write": "P",
+            "move": "R",
+            "shift": 24
+        },
+        {
+            "state": "q0",
+            "input": "O",
+            "next_state": "q0",
+            "write": "Q",
+            "move": "R",
+            "shift": 24
+        },
+        {
+            "state": "q0",
+            "input": "P",
+            "next_state": "q0",
+            "write": "R",
+            "move": "R",
+            "shift": 24
+        },
+        {
+            "state": "q0",
+            "input": "Q",
+            "next_state": "q0",
+            "write": "S",
+            "move": "R",
+            "shift": 24
+        },
+        {
+            "state": "q0",
+            "input": "R",
+            "next_state": "q0",
+            "write": "T",
+            "move": "R",
+            "shift": 24
+        },
+        {
+            "state": "q0",
+            "input": "S",
+            "next_state": "q0",
+            "write": "U",
+            "move": "R",
+            "shift": 24
+        },
+        {
+            "state": "q0",
+            "input": "T",
+            "next_state": "q0",
+            "write": "V",
+            "move": "R",
+            "shift": 24
+        },
+        {
+            "state": "q0",
+            "input": "U",
+            "next_state": "q0",
+            "write": "W",
+            "move": "R",
+            "shift": 24
+        },
+        {
+            "state": "q0",
+            "input": "V",
+            "next_state": "q0",
+            "write": "X",
+            "move": "R",
+            "shift": 24
+        },
+        {
+            "state": "q0",
+            "input": "W",
+            "next_state": "q0",
+            "write": "Y",
+            "move": "R",
+            "shift": 24
+        },
+        {
+            "state": "q0",
+            "input": "X",
+            "next_state": "q0",
+            "write": "Z",
+            "move": "R",
+            "shift": 24
+        },
+        {
+            "state": "q0",
+            "input": "Y",
+            "next_state": "q0",
+            "write": "A",
+            "move": "R",
+            "shift": 24
+        },
+        {
+            "state": "q0",
+            "input": "Z",
+            "next_state": "q0",
+            "write": "B",
+            "move": "R",
+            "shift": 24
+        },
+        {
+            "state": "q0",
+            "input": " ",
+            "next_state": "q0",
+            "write": " ",
+            "move": "R",
+            "shift": 24
+        },
+        {
+            "state": "q0",
+            "input": "A",
+            "next_state": "q0",
+            "write": "B",
+            "move": "R",
+            "shift": 25
+        },
+        {
+            "state": "q0",
+            "input": "B",
+            "next_state": "q0",
+            "write": "C",
+            "move": "R",
+            "shift": 25
+        },
+        {
+            "state": "q0",
+            "input": "C",
+            "next_state": "q0",
+            "write": "D",
+            "move": "R",
+            "shift": 25
+        },
+        {
+            "state": "q0",
+            "input": "D",
+            "next_state": "q0",
+            "write": "E",
+            "move": "R",
+            "shift": 25
+        },
+        {
+            "state": "q0",
+            "input": "E",
+            "next_state": "q0",
+            "write": "F",
+            "move": "R",
+            "shift": 25
+        },
+        {
+            "state": "q0",
+            "input": "F",
+            "next_state": "q0",
+            "write": "G",
+            "move": "R",
+            "shift": 25
+        },
+        {
+            "state": "q0",
+            "input": "G",
+            "next_state": "q0",
+            "write": "H",
+            "move": "R",
+            "shift": 25
+        },
+        {
+            "state": "q0",
+            "input": "H",
+            "next_state": "q0",
+            "write": "I",
+            "move": "R",
+            "shift": 25
+        },
+        {
+            "state": "q0",
+            "input": "I",
+            "next_state": "q0",
+            "write": "J",
+            "move": "R",
+            "shift": 25
+        },
+        {
+            "state": "q0",
+            "input": "J",
+            "next_state": "q0",
+            "write": "K",
+            "move": "R",
+            "shift": 25
+        },
+        {
+            "state": "q0",
+            "input": "K",
+            "next_state": "q0",
+            "write": "L",
+            "move": "R",
+            "shift": 25
+        },
+        {
+            "state": "q0",
+            "input": "L",
+            "next_state": "q0",
+            "write": "M",
+            "move": "R",
+            "shift": 25
+        },
+        {
+            "state": "q0",
+            "input": "M",
+            "next_state": "q0",
+            "write": "N",
+            "move": "R",
+            "shift": 25
+        },
+        {
+            "state": "q0",
+            "input": "N",
+            "next_state": "q0",
+            "write": "O",
+            "move": "R",
+            "shift": 25
+        },
+        {
+            "state": "q0",
+            "input": "O",
+            "next_state": "q0",
+            "write": "P",
+            "move": "R",
+            "shift": 25
+        },
+        {
+            "state": "q0",
+            "input": "P",
+            "next_state": "q0",
+            "write": "Q",
+            "move": "R",
+            "shift": 25
+        },
+        {
+            "state": "q0",
+            "input": "Q",
+            "next_state": "q0",
+            "write": "R",
+            "move": "R",
+            "shift": 25
+        },
+        {
+            "state": "q0",
+            "input": "R",
+            "next_state": "q0",
+            "write": "S",
+            "move": "R",
+            "shift": 25
+        },
+        {
+            "state": "q0",
+            "input": "S",
+            "next_state": "q0",
+            "write": "T",
+            "move": "R",
+            "shift": 25
+        },
+        {
+            "state": "q0",
+            "input": "T",
+            "next_state": "q0",
+            "write": "U",
+            "move": "R",
+            "shift": 25
+        },
+        {
+            "state": "q0",
+            "input": "U",
+            "next_state": "q0",
+            "write": "V",
+            "move": "R",
+            "shift": 25
+        },
+        {
+            "state": "q0",
+            "input": "V",
+            "next_state": "q0",
+            "write": "W",
+            "move": "R",
+            "shift": 25
+        },
+        {
+            "state": "q0",
+            "input": "W",
+            "next_state": "q0",
+            "write": "X",
+            "move": "R",
+            "shift": 25
+        },
+        {
+            "state": "q0",
+            "input": "X",
+            "next_state": "q0",
+            "write": "Y",
+            "move": "R",
+            "shift": 25
+        },
+        {
+            "state": "q0",
+            "input": "Y",
+            "next_state": "q0",
+            "write": "Z",
+            "move": "R",
+            "shift": 25
+        },
+        {
+            "state": "q0",
+            "input": "Z",
+            "next_state": "q0",
+            "write": "A",
+            "move": "R",
+            "shift": 25
+        },
+        {
+            "state": "q0",
+            "input": " ",
+            "next_state": "q0",
+            "write": " ",
+            "move": "R",
+            "shift": 25
         }
     ]
 }
