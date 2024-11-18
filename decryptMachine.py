@@ -1,36 +1,43 @@
 import json
 
 # Define los elementos de la máquina
-states = ["q0", "q1", "q2", "q3"]
+states = ["q0", "halt"]
 input_alphabet = [chr(i) for i in range(ord("A"), ord("Z") + 1)] + [" "]
 tape_alphabet = input_alphabet
 initial_state = "q0"
-accept_states = ["q2"]
+accept_states = ["halt"]
 
-# Genera todas las transiciones posibles
+# Generar todas las transiciones posibles para cada shift (1-25)
 transitions = []
 
-for state in states:
-    for symbol in input_alphabet:
-        if state == "q0":
-            next_state = "q1"  # Estado de transición
-        elif state == "q1" and symbol == " ":
-            next_state = "q2"  # Estado de aceptación
+for shift in range(0, 26):  # Shift desde 1 hasta 25
+    for letter in input_alphabet:
+        if letter == " ":
+            # Espacios no detienen la máquina; permanecen en q0
+            transitions.append(
+                {
+                    "state": "q0",
+                    "input": letter,
+                    "next_state": "q0",  # Continuar en q0
+                    "write": letter,  # Mantener el espacio
+                    "move": "R",
+                    "shift": shift,
+                }
+            )
         else:
-            next_state = "q3"  # Estado genérico
-
-        # Movimiento genérico
-        move = "R" if state != "q3" else "L"
-
-        transitions.append(
-            {
-                "state": state,
-                "input": symbol,
-                "next_state": next_state,
-                "write": symbol,
-                "move": move,
-            }
-        )
+            # Procesar letras del alfabeto
+            current_index = input_alphabet.index(letter)
+            shifted_index = (current_index - shift) % 26  # Solo 26 letras (A-Z)
+            transitions.append(
+                {
+                    "state": "q0",
+                    "input": letter,
+                    "next_state": "q0",  # Continuar procesando en q0
+                    "write": input_alphabet[shifted_index],  # Aplicar descifrado
+                    "move": "R",
+                    "shift": shift,
+                }
+            )
 
 # Crear la estructura JSON
 machine = {
@@ -43,7 +50,8 @@ machine = {
 }
 
 # Guardar como archivo JSON
-with open("machines/decryptMachine.json", "w") as json_file:
+output_file = "machines/decryptMachine.json"
+with open(output_file, "w") as json_file:
     json.dump(machine, json_file, indent=4)
 
-print("Archivo decryptMachine.json generado correctamente.")
+print(f"Archivo {output_file} generado correctamente.")
