@@ -51,7 +51,7 @@ func main() {
 			machine.Run(message)
 
 		case 2:
-			jsonPath := strings.TrimSpace("machines/decryptMachine.json")
+			jsonPath := "machines/decryptMachine.json"
 
 			fmt.Print("Ingresa la cadena para descifrar: ")
 			encodedMessage, _ := reader.ReadString('\n')
@@ -59,8 +59,9 @@ func main() {
 
 			machine := parseJSONMachine(jsonPath)
 			key, message := ParseEncodedMessage(encodedMessage)
-			decoded := DecryptCesar(message, key, machine.InputAlphabet)
+			fmt.Printf("Usando la clave: %d\n", key)
 
+			decoded := DecryptWithMachine(message, machine, key)
 			fmt.Printf("Mensaje descifrado: %s\n", decoded)
 		case 3:
 			fmt.Println("Saliendo...")
@@ -75,7 +76,7 @@ func parseJSONMachine(filePath string) TuringMachineJson {
 	file, err := os.Open(filePath)
 	if err != nil {
 		fmt.Printf("Error al leer el archivo JSON en la ruta '%s': %v\n", filePath, err)
-		os.Exit(1) // Finaliza el programa si no puede abrir el archivo.
+		os.Exit(1)
 	}
 	defer file.Close()
 
