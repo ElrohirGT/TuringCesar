@@ -22,7 +22,7 @@ func ParseMachine(file *os.File) TuringMachine {
 	transitions := map[TransitionInput]TransitionOutput{}
 	for scanner.Scan() {
 		transitionParts := strings.Split(scanner.Text(), "->")
-		fmt.Printf("Transition: %v -> %v\n", transitionParts[0], transitionParts[1])
+		//fmt.Printf("Transition: %v -> %v\n", transitionParts[0], transitionParts[1])
 
 		transInputs := strings.Split(strings.TrimSpace(transitionParts[0]), " ")
 		inputs := TransitionInput{
