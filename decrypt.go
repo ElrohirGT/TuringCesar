@@ -19,6 +19,9 @@ func ParseEncodedMessage(input string) (int, string) {
 }
 
 func DecryptWithMachine(message string, machine TuringMachineJson, key int) string {
+	// Agregar el punto al final de la cinta
+	message += "."
+
 	tape := strings.Split(message, "") // Convertimos el mensaje en una cinta (array de caracteres)
 	head := 0                          // Posición inicial del cabezal
 	state := machine.InitialState      // Estado inicial
@@ -26,15 +29,17 @@ func DecryptWithMachine(message string, machine TuringMachineJson, key int) stri
 	// Filtrar transiciones para la clave actual (shift/key)
 	filteredTransitions := filterTransitionsByShift(machine.Transitions, key)
 
+	// Iterar sobre la cinta hasta que el estado sea de aceptación o se produzca un error
 	for head < len(tape) && head >= 0 {
 		currentSymbol := tape[head]
 		transitionFound := false
 
 		// Buscar una transición válida para el estado y símbolo actuales
 		for _, transition := range filteredTransitions {
+			// Verificar si la transición coincide con el estado y símbolo actuales
 			if transition["state"] == state && transition["input"] == currentSymbol {
-				//fmt.Printf("Transición encontrada: state=%s, input=%s, write=%s, next_state=%s\n",
-				//	state, currentSymbol, transition["write"], transition["next_state"])
+				fmt.Printf("Transición encontrada: state=%s, input=%s, write=%s, next_state=%s, move=%s\n",
+					state, currentSymbol, transition["write"], transition["next_state"], transition["move"])
 
 				// Aplicar transición
 				tape[head] = transition["write"].(string)
@@ -57,17 +62,13 @@ func DecryptWithMachine(message string, machine TuringMachineJson, key int) stri
 			panic(fmt.Sprintf("Transición no encontrada para state=%s, input=%s, head=%d",
 				state, currentSymbol, head))
 		}
-
-		// Si el cabezal supera la cinta, mover al estado de aceptación
-		if head >= len(tape) {
-			state = "halt"
-		}
 	}
 
 	// Verificar si el estado final es un estado de aceptación
 	for _, acceptState := range machine.AcceptStates {
 		if state == acceptState {
-			return strings.Join(tape, "") // Retornar la cinta descifrada completa
+			// Retornar la cinta descifrada sin el punto final
+			return strings.TrimSuffix(strings.Join(tape, ""), ".")
 		}
 	}
 
